@@ -4,7 +4,7 @@
     "title": "Big Buck Bunny",
     "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/400px-Big_buck_bunny_poster_big.jpg",
     "backdrop": "https://peach.blender.org/wp-content/uploads/bbb-splash.png",
-    "description": "A large and lovable rabbit deals with three bullying rodents — a trio of troublesome critters who love to hurt small innocent animals. Upon becoming the target of their cruel antics, the rabbit decides to fight back with traps and pranks.",
+    "description": "A large and lovable rabbit deals with three bullying rodents who love to hurt small innocent animals. Upon becoming the target of their cruel antics, the rabbit decides to fight back.",
     "isMovie": true,
     "quality": "4K",
     "runtime": "9m 56s",
@@ -20,7 +20,7 @@
     "title": "Elephant Dream",
     "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Elephants_Dream_s5_both.jpg/400px-Elephants_Dream_s5_both.jpg",
     "backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Elephants_Dream_s5_both.jpg/1200px-Elephants_Dream_s5_both.jpg",
-    "description": "Two strange creatures, Proog and Emo, journey through a bizarre mechanical world. Proog, the elder, firmly believes in this world, while Emo questions everything he sees. A short film exploring perception, reality and friendship.",
+    "description": "Two strange creatures journey through a bizarre mechanical world. Proog believes in this world firmly, while Emo questions everything he sees. A short film exploring perception, reality and friendship.",
     "isMovie": true,
     "quality": "HD",
     "runtime": "10m 54s",
@@ -32,44 +32,27 @@
   },
 
   {
-    "id": "subaru-outback",
-    "title": "Subaru Outback Adventure",
-    "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
-    "backdrop": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
-    "description": "Experience the thrill of driving the Subaru Outback through rugged terrain and city streets. This short documentary showcases the versatility and capability of one of the most popular adventure vehicles on the road.",
-    "isMovie": true,
-    "quality": "HD",
-    "runtime": "2m",
-    "language": "English",
-    "genres": ["Documentary", "Automotive"],
-    "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-    "audioVersions": []
-  },
-
-  {
     "id": "demon-slayer-s1",
-    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "title": "Demon Slayer — Season 1",
     "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
-    "description": "Tanjiro Kamado, a kind-hearted boy who sells charcoal for a living, finds his family slaughtered by a demon. His younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Tanjiro resolves to become a demon slayer to turn his sister back into a human.",
+    "description": "Tanjiro Kamado's entire family is slaughtered by a demon. His only surviving sister Nezuko has been turned into a demon herself. Tanjiro vows to become a demon slayer to avenge his family and restore his sister's humanity.",
     "isMovie": false,
     "quality": "HD",
     "runtime": "24m / ep",
     "language": "Hindi",
-    "genres": ["Animation", "Action", "Adventure", "Dark Fantasy"],
+    "genres": ["Animation", "Action", "Dark Fantasy"],
     "downloadUrl": "https://example.com/download/demon-slayer-s1",
     "audioVersions": [
       { "label": "Hindi",   "icon": "🇮🇳" },
       { "label": "English", "icon": "🇬🇧" },
-      { "label": "Tamil",   "icon": "🎙️" },
-      { "label": "Telugu",  "icon": "🎙️" }
+      { "label": "Tamil",   "icon": "🎙️" }
     ],
     "episodes": [
       {
         "id": "ep01", "s": 1, "e": 1,
         "label": "Cruelty",
-        "desc": "Tanjiro returns home to a tragedy — his entire family has been slaughtered by a demon. His sister Nezuko is the only survivor, but she has been turned into a demon.",
+        "desc": "Tanjiro returns home to a tragedy — his entire family slaughtered by a demon. His sister Nezuko is the only survivor, now turned into a demon.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 596,
         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
@@ -78,57 +61,141 @@
       {
         "id": "ep02", "s": 1, "e": 2,
         "label": "Trainer Sakonji Urokodaki",
-        "desc": "Tanjiro carries Nezuko and travels to Sagiri Mountain to find the former Water Pillar, Sakonji Urokodaki, who may be able to help.",
+        "desc": "Tanjiro carries Nezuko and travels to Sagiri Mountain to find the former Water Pillar who may be able to help.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/ds-ep02"
+        "downloadUrl": "https://example.com/download/ds-s1-ep02"
       },
       {
         "id": "ep03", "s": 1, "e": 3,
         "label": "Sabito and Makomo",
-        "desc": "During his training, Tanjiro encounters the spirits of Sabito and Makomo, who teach him the secrets of the Water Breathing technique.",
+        "desc": "During training, Tanjiro encounters spirits who teach him the secrets of the Water Breathing technique.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/ds-ep03"
+        "downloadUrl": "https://example.com/download/ds-s1-ep03"
       },
       {
         "id": "ep04", "s": 1, "e": 4,
         "label": "Final Selection",
-        "desc": "After two years of rigorous training, Tanjiro enters the Final Selection exam on Fujikasane Mountain, where he must survive for seven days.",
+        "desc": "After two years of training, Tanjiro enters the Final Selection exam where he must survive for seven days on a demon-infested mountain.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/ds-ep04"
+        "downloadUrl": "https://example.com/download/ds-s1-ep04"
       },
       {
         "id": "ep05", "s": 1, "e": 5,
         "label": "My Own Steel",
-        "desc": "Tanjiro survives the Final Selection and receives his first mission as an official Demon Slayer Corps member.",
+        "desc": "Tanjiro survives Final Selection and receives his first mission as an official Demon Slayer Corps member.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/ds-ep05"
+        "downloadUrl": "https://example.com/download/ds-s1-ep05"
       },
       {
         "id": "ep06", "s": 1, "e": 6,
         "label": "Swordsman Accompanying a Demon",
-        "desc": "Tanjiro arrives in Kasugaoji to investigate a string of disappearances, accompanied by Nezuko hidden in a box on his back.",
+        "desc": "Tanjiro arrives at Kasugaoji to investigate disappearances, with Nezuko hidden in a box on his back.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/ds-ep06"
+        "downloadUrl": "https://example.com/download/ds-s1-ep06"
+      }
+    ]
+  },
+
+  {
+    "id": "demon-slayer-s2",
+    "title": "Demon Slayer — Season 2",
+    "poster": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gg4zad41hEQFoFGHbTWMVANS5Nf.jpg",
+    "description": "Tanjiro and his friends join the Flame Hashira Rengoku on the Mugen Train — a mission that becomes a desperate fight for survival against one of the most powerful demons they have ever faced. Then, in the Entertainment District, the battle against Upper Rank demons intensifies.",
+    "isMovie": false,
+    "quality": "HD",
+    "runtime": "45m / ep",
+    "language": "Hindi",
+    "genres": ["Animation", "Action", "Dark Fantasy"],
+    "downloadUrl": "https://example.com/download/demon-slayer-s2",
+    "audioVersions": [
+      { "label": "Hindi",   "icon": "🇮🇳" },
+      { "label": "English", "icon": "🇬🇧" },
+      { "label": "Tamil",   "icon": "🎙️" }
+    ],
+    "episodes": [
+      {
+        "id": "ep01", "s": 2, "e": 1,
+        "label": "Flames of the Mugen Train",
+        "desc": "Tanjiro, Zenitsu and Inosuke board the Mugen Train with Flame Hashira Kyojuro Rengoku to investigate the mysterious disappearance of passengers.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 2700,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep01"
+      },
+      {
+        "id": "ep02", "s": 2, "e": 2,
+        "label": "Deep Sleep",
+        "desc": "Everyone on the train is put into a deep sleep by a demon's Blood Demon Art. Tanjiro must find a way to wake everyone up before it's too late.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep02"
+      },
+      {
+        "id": "ep03", "s": 2, "e": 3,
+        "label": "Akaza",
+        "desc": "The Upper Rank Three demon Akaza appears and engages Rengoku in an intense battle that pushes the Flame Hashira to his absolute limits.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep03"
+      },
+      {
+        "id": "ep04", "s": 2, "e": 4,
+        "label": "Sound Hashira — Tengen Uzui",
+        "desc": "Recovering from the Mugen Train mission, Tanjiro and friends are assigned to the Entertainment District with the flashy Sound Hashira Tengen Uzui.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep04"
+      },
+      {
+        "id": "ep05", "s": 2, "e": 5,
+        "label": "Infiltrating the Entertainment District",
+        "desc": "Tanjiro, Zenitsu and Inosuke disguise themselves to infiltrate the Entertainment District and search for the demon hiding within.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep05"
+      },
+      {
+        "id": "ep06", "s": 2, "e": 6,
+        "label": "Daki",
+        "desc": "An Upper Rank demon named Daki reveals herself in the Entertainment District. Her power is unlike anything the group has faced before.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep06"
+      },
+      {
+        "id": "ep07", "s": 2, "e": 7,
+        "label": "Transformation",
+        "desc": "Tanjiro's rage unlocks something terrifying within him. Nezuko's demon powers also transform in a shocking and unexpected way.",
+        "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-s2-ep07"
       }
     ]
   },
 
   {
     "id": "attack-on-titan-s1",
-    "title": "Attack on Titan",
+    "title": "Attack on Titan — Season 1",
     "poster": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
-    "description": "In a world where humanity lives inside cities surrounded by enormous walls protecting them from Titans — gigantic humanoid creatures who devour humans seemingly without reason — a young boy named Eren Yeager vows to exterminate them after a Titan smashes through the walls of his hometown.",
+    "description": "Humanity lives inside cities surrounded by enormous walls protecting them from Titans — gigantic humanoids who devour humans. When the walls are breached, young Eren Yeager vows to exterminate every last Titan.",
     "isMovie": false,
     "quality": "HD",
     "runtime": "24m / ep",
@@ -144,63 +211,63 @@
       {
         "id": "ep01", "s": 1, "e": 1,
         "label": "To You, 2000 Years From Now",
-        "desc": "After 100 years of peace, the Colossal Titan appears and breaches the outermost wall, triggering a Titan invasion. Eren watches in horror as his mother is devoured.",
+        "desc": "The Colossal Titan breaches the outermost wall. Eren watches in horror as his mother is devoured. He swears to kill every Titan alive.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/aot-ep01"
+        "downloadUrl": "https://example.com/download/aot-s1-ep01"
       },
       {
         "id": "ep02", "s": 1, "e": 2,
         "label": "That Day: The Fall of Shiganshina",
-        "desc": "The survivors of the Titan attack are forced to abandon their homes. Eren, Mikasa and Armin struggle to survive in the refugee camps behind Wall Rose.",
+        "desc": "Survivors flee behind Wall Rose. Eren, Mikasa and Armin struggle to survive in refugee camps, haunted by what they witnessed.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/aot-ep02"
+        "downloadUrl": "https://example.com/download/aot-s1-ep02"
       },
       {
         "id": "ep03", "s": 1, "e": 3,
         "label": "A Dim Light Amid Despair",
-        "desc": "Eren, Mikasa and Armin join the military training corps. Eren struggles with his burning desire for revenge against the Titans.",
+        "desc": "Eren, Mikasa and Armin join the military training corps, beginning five years of brutal training to fight Titans.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/aot-ep03"
+        "downloadUrl": "https://example.com/download/aot-s1-ep03"
       },
       {
         "id": "ep04", "s": 1, "e": 4,
         "label": "The Night of the Closing Ceremony",
-        "desc": "Graduation day arrives for the 104th Cadet Corps. Eren and his friends choose their paths — Survey Corps, Military Police, or Garrison.",
+        "desc": "Graduation day arrives. The top ten cadets choose between Survey Corps, Military Police and Garrison. Eren chooses the Survey Corps.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/aot-ep04"
+        "downloadUrl": "https://example.com/download/aot-s1-ep04"
       },
       {
         "id": "ep05", "s": 1, "e": 5,
         "label": "First Battle: The Struggle for Trost",
-        "desc": "The Colossal Titan appears again and breaches Wall Rose at Trost District. Eren and his fellow trainees are thrust into their first real battle against Titans.",
+        "desc": "The Colossal Titan appears again and breaches Wall Rose at Trost District. Eren and his fellow trainees fight for their lives.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/aot-ep05"
+        "downloadUrl": "https://example.com/download/aot-s1-ep05"
       }
     ]
   },
 
   {
-    "id": "one-piece-s1",
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
-    "description": "A boy named Monkey D. Luffy, inspired by his childhood hero, the powerful pirate Red-Haired Shanks, sets off on a journey from the East Blue Sea to find the legendary treasure, the One Piece, and become King of the Pirates.",
+    "id": "attack-on-titan-s2",
+    "title": "Attack on Titan — Season 2",
+    "poster": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rF3TKDMX4EIBuGJi4uovABEBbQr.jpg",
+    "description": "A Titan is spotted inside Wall Rose — meaning the wall may already be breached. As the Survey Corps investigates, shocking truths begin to surface about the Titans, the walls, and the people Eren trusted most.",
     "isMovie": false,
     "quality": "HD",
     "runtime": "24m / ep",
     "language": "Hindi",
-    "genres": ["Animation", "Action", "Adventure", "Comedy"],
-    "downloadUrl": "https://example.com/download/onepiece-s1",
+    "genres": ["Animation", "Action", "Dark Fantasy", "Mystery"],
+    "downloadUrl": "https://example.com/download/aot-s2",
     "audioVersions": [
       { "label": "Hindi",   "icon": "🇮🇳" },
       { "label": "English", "icon": "🇬🇧" },
@@ -208,40 +275,58 @@
     ],
     "episodes": [
       {
-        "id": "ep01", "s": 1, "e": 1,
-        "label": "I'm Luffy! The Man Who's Gonna Be King of the Pirates!",
-        "desc": "A young Monkey D. Luffy accidentally eats a Devil Fruit and gains the ability to stretch like rubber. Years later, he sets sail to gather a crew and find the One Piece.",
-        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "id": "ep01", "s": 2, "e": 1,
+        "label": "Beast Titan",
+        "desc": "A mysterious Titan with the ability to speak is spotted outside the walls. The Survey Corps discovers Titans inside Wall Rose.",
+        "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/op-ep01"
+        "downloadUrl": "https://example.com/download/aot-s2-ep01"
       },
       {
-        "id": "ep02", "s": 1, "e": 2,
-        "label": "Enter the Great Swordsman! Pirate Hunter Zoro!",
-        "desc": "Luffy arrives at a Marine base and finds a legendary pirate hunter named Roronoa Zoro locked up. Luffy attempts to recruit him as his first crewmate.",
-        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "id": "ep02", "s": 2, "e": 2,
+        "label": "I'm Home",
+        "desc": "As the Garrison troops seek refuge in a castle, the Survey Corps learns a terrifying secret about how Titans are created.",
+        "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/op-ep02"
+        "downloadUrl": "https://example.com/download/aot-s2-ep02"
       },
       {
-        "id": "ep03", "s": 1, "e": 3,
-        "label": "Morgan versus Luffy! Who's the Mysterious Pretty Girl?",
-        "desc": "Luffy and Zoro take on Marine Captain Morgan. They also encounter a mysterious girl named Nami who turns out to be a thief who specialises in stealing from pirates.",
-        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "id": "ep03", "s": 2, "e": 3,
+        "label": "Southwestward",
+        "desc": "The group trapped in the castle faces an overwhelming Titan siege. Hange Zoë reveals new discoveries about Titan anatomy.",
+        "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/op-ep03"
+        "downloadUrl": "https://example.com/download/aot-s2-ep03"
       },
       {
-        "id": "ep04", "s": 1, "e": 4,
-        "label": "Luffy's Past! The Red-Haired Shanks Appears!",
-        "desc": "Luffy recalls his childhood and the story of how he came to eat the Gum-Gum Devil Fruit and how the great pirate Shanks saved his life.",
-        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "id": "ep04", "s": 2, "e": 4,
+        "label": "Soldier",
+        "desc": "A shocking revelation about the identity of the Armored and Colossal Titans sends the Survey Corps into chaos and despair.",
+        "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
-        "downloadUrl": "https://example.com/download/op-ep04"
+        "downloadUrl": "https://example.com/download/aot-s2-ep04"
+      },
+      {
+        "id": "ep05", "s": 2, "e": 5,
+        "label": "Historia",
+        "desc": "The truth about Historia Reiss and her true identity is revealed. Ymir's past and her connection to the Titans comes to light.",
+        "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-s2-ep05"
+      },
+      {
+        "id": "ep06", "s": 2, "e": 6,
+        "label": "Warrior",
+        "desc": "Reiner and Bertholdt reveal themselves as the Armored and Colossal Titans and kidnap Eren. A desperate rescue mission begins.",
+        "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-s2-ep06"
       }
     ]
   }
