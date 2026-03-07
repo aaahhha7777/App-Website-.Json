@@ -1,0 +1,248 @@
+[
+  {
+    "id": "big-buck-bunny",
+    "title": "Big Buck Bunny",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/400px-Big_buck_bunny_poster_big.jpg",
+    "backdrop": "https://peach.blender.org/wp-content/uploads/bbb-splash.png",
+    "description": "A large and lovable rabbit deals with three bullying rodents — a trio of troublesome critters who love to hurt small innocent animals. Upon becoming the target of their cruel antics, the rabbit decides to fight back with traps and pranks.",
+    "isMovie": true,
+    "quality": "4K",
+    "runtime": "9m 56s",
+    "language": "English",
+    "genres": ["Animation", "Comedy", "Family"],
+    "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "audioVersions": []
+  },
+
+  {
+    "id": "elephant-dream",
+    "title": "Elephant Dream",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Elephants_Dream_s5_both.jpg/400px-Elephants_Dream_s5_both.jpg",
+    "backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Elephants_Dream_s5_both.jpg/1200px-Elephants_Dream_s5_both.jpg",
+    "description": "Two strange creatures, Proog and Emo, journey through a bizarre mechanical world. Proog, the elder, firmly believes in this world, while Emo questions everything he sees. A short film exploring perception, reality and friendship.",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "10m 54s",
+    "language": "English",
+    "genres": ["Animation", "Sci-Fi", "Short"],
+    "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "audioVersions": []
+  },
+
+  {
+    "id": "subaru-outback",
+    "title": "Subaru Outback Adventure",
+    "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
+    "backdrop": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
+    "description": "Experience the thrill of driving the Subaru Outback through rugged terrain and city streets. This short documentary showcases the versatility and capability of one of the most popular adventure vehicles on the road.",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "2m",
+    "language": "English",
+    "genres": ["Documentary", "Automotive"],
+    "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+    "audioVersions": []
+  },
+
+  {
+    "id": "demon-slayer-s1",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
+    "description": "Tanjiro Kamado, a kind-hearted boy who sells charcoal for a living, finds his family slaughtered by a demon. His younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Tanjiro resolves to become a demon slayer to turn his sister back into a human.",
+    "isMovie": false,
+    "quality": "HD",
+    "runtime": "24m / ep",
+    "language": "Hindi",
+    "genres": ["Animation", "Action", "Adventure", "Dark Fantasy"],
+    "downloadUrl": "https://example.com/download/demon-slayer-s1",
+    "audioVersions": [
+      { "label": "Hindi",   "icon": "🇮🇳" },
+      { "label": "English", "icon": "🇬🇧" },
+      { "label": "Tamil",   "icon": "🎙️" },
+      { "label": "Telugu",  "icon": "🎙️" }
+    ],
+    "episodes": [
+      {
+        "id": "ep01", "s": 1, "e": 1,
+        "label": "Cruelty",
+        "desc": "Tanjiro returns home to a tragedy — his entire family has been slaughtered by a demon. His sister Nezuko is the only survivor, but she has been turned into a demon.",
+        "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "duration": 596,
+        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      {
+        "id": "ep02", "s": 1, "e": 2,
+        "label": "Trainer Sakonji Urokodaki",
+        "desc": "Tanjiro carries Nezuko and travels to Sagiri Mountain to find the former Water Pillar, Sakonji Urokodaki, who may be able to help.",
+        "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-ep02"
+      },
+      {
+        "id": "ep03", "s": 1, "e": 3,
+        "label": "Sabito and Makomo",
+        "desc": "During his training, Tanjiro encounters the spirits of Sabito and Makomo, who teach him the secrets of the Water Breathing technique.",
+        "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-ep03"
+      },
+      {
+        "id": "ep04", "s": 1, "e": 4,
+        "label": "Final Selection",
+        "desc": "After two years of rigorous training, Tanjiro enters the Final Selection exam on Fujikasane Mountain, where he must survive for seven days.",
+        "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-ep04"
+      },
+      {
+        "id": "ep05", "s": 1, "e": 5,
+        "label": "My Own Steel",
+        "desc": "Tanjiro survives the Final Selection and receives his first mission as an official Demon Slayer Corps member.",
+        "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-ep05"
+      },
+      {
+        "id": "ep06", "s": 1, "e": 6,
+        "label": "Swordsman Accompanying a Demon",
+        "desc": "Tanjiro arrives in Kasugaoji to investigate a string of disappearances, accompanied by Nezuko hidden in a box on his back.",
+        "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/ds-ep06"
+      }
+    ]
+  },
+
+  {
+    "id": "attack-on-titan-s1",
+    "title": "Attack on Titan",
+    "poster": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+    "description": "In a world where humanity lives inside cities surrounded by enormous walls protecting them from Titans — gigantic humanoid creatures who devour humans seemingly without reason — a young boy named Eren Yeager vows to exterminate them after a Titan smashes through the walls of his hometown.",
+    "isMovie": false,
+    "quality": "HD",
+    "runtime": "24m / ep",
+    "language": "Hindi",
+    "genres": ["Animation", "Action", "Dark Fantasy", "Drama"],
+    "downloadUrl": "https://example.com/download/aot-s1",
+    "audioVersions": [
+      { "label": "Hindi",   "icon": "🇮🇳" },
+      { "label": "English", "icon": "🇬🇧" },
+      { "label": "Japanese","icon": "🇯🇵" }
+    ],
+    "episodes": [
+      {
+        "id": "ep01", "s": 1, "e": 1,
+        "label": "To You, 2000 Years From Now",
+        "desc": "After 100 years of peace, the Colossal Titan appears and breaches the outermost wall, triggering a Titan invasion. Eren watches in horror as his mother is devoured.",
+        "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-ep01"
+      },
+      {
+        "id": "ep02", "s": 1, "e": 2,
+        "label": "That Day: The Fall of Shiganshina",
+        "desc": "The survivors of the Titan attack are forced to abandon their homes. Eren, Mikasa and Armin struggle to survive in the refugee camps behind Wall Rose.",
+        "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-ep02"
+      },
+      {
+        "id": "ep03", "s": 1, "e": 3,
+        "label": "A Dim Light Amid Despair",
+        "desc": "Eren, Mikasa and Armin join the military training corps. Eren struggles with his burning desire for revenge against the Titans.",
+        "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-ep03"
+      },
+      {
+        "id": "ep04", "s": 1, "e": 4,
+        "label": "The Night of the Closing Ceremony",
+        "desc": "Graduation day arrives for the 104th Cadet Corps. Eren and his friends choose their paths — Survey Corps, Military Police, or Garrison.",
+        "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-ep04"
+      },
+      {
+        "id": "ep05", "s": 1, "e": 5,
+        "label": "First Battle: The Struggle for Trost",
+        "desc": "The Colossal Titan appears again and breaches Wall Rose at Trost District. Eren and his fellow trainees are thrust into their first real battle against Titans.",
+        "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/aot-ep05"
+      }
+    ]
+  },
+
+  {
+    "id": "one-piece-s1",
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+    "description": "A boy named Monkey D. Luffy, inspired by his childhood hero, the powerful pirate Red-Haired Shanks, sets off on a journey from the East Blue Sea to find the legendary treasure, the One Piece, and become King of the Pirates.",
+    "isMovie": false,
+    "quality": "HD",
+    "runtime": "24m / ep",
+    "language": "Hindi",
+    "genres": ["Animation", "Action", "Adventure", "Comedy"],
+    "downloadUrl": "https://example.com/download/onepiece-s1",
+    "audioVersions": [
+      { "label": "Hindi",   "icon": "🇮🇳" },
+      { "label": "English", "icon": "🇬🇧" },
+      { "label": "Japanese","icon": "🇯🇵" }
+    ],
+    "episodes": [
+      {
+        "id": "ep01", "s": 1, "e": 1,
+        "label": "I'm Luffy! The Man Who's Gonna Be King of the Pirates!",
+        "desc": "A young Monkey D. Luffy accidentally eats a Devil Fruit and gains the ability to stretch like rubber. Years later, he sets sail to gather a crew and find the One Piece.",
+        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/op-ep01"
+      },
+      {
+        "id": "ep02", "s": 1, "e": 2,
+        "label": "Enter the Great Swordsman! Pirate Hunter Zoro!",
+        "desc": "Luffy arrives at a Marine base and finds a legendary pirate hunter named Roronoa Zoro locked up. Luffy attempts to recruit him as his first crewmate.",
+        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/op-ep02"
+      },
+      {
+        "id": "ep03", "s": 1, "e": 3,
+        "label": "Morgan versus Luffy! Who's the Mysterious Pretty Girl?",
+        "desc": "Luffy and Zoro take on Marine Captain Morgan. They also encounter a mysterious girl named Nami who turns out to be a thief who specialises in stealing from pirates.",
+        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/op-ep03"
+      },
+      {
+        "id": "ep04", "s": 1, "e": 4,
+        "label": "Luffy's Past! The Red-Haired Shanks Appears!",
+        "desc": "Luffy recalls his childhood and the story of how he came to eat the Gum-Gum Devil Fruit and how the great pirate Shanks saved his life.",
+        "thumb": "https://image.tmdb.org/t/p/w500/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+        "duration": 1440,
+        "embedId": "kzpptl1HnNUwlUL",
+        "downloadUrl": "https://example.com/download/op-ep04"
+      }
+    ]
+  }
+]
