@@ -32,8 +32,8 @@
   },
 
   {
-    "id": "demon-slayer-s1",
-    "title": "Demon Slayer — Season 1",
+    "id": "demon-slayer",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
     "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
     "description": "Tanjiro Kamado's entire family is slaughtered by a demon. His only surviving sister Nezuko has been turned into a demon herself. Tanjiro vows to become a demon slayer to avenge his family and restore his sister's humanity.",
@@ -42,7 +42,7 @@
     "runtime": "24m / ep",
     "language": "Hindi",
     "genres": ["Animation", "Action", "Dark Fantasy"],
-    "downloadUrl": "https://example.com/download/demon-slayer-s1",
+    "downloadUrl": "https://example.com/download/demon-slayer",
     "audioVersions": [
       { "label": "Hindi",   "icon": "🇮🇳" },
       { "label": "English", "icon": "🇬🇧" },
@@ -50,7 +50,7 @@
     ],
     "episodes": [
       {
-        "id": "ep01", "s": 1, "e": 1,
+        "id": "s1e01", "s": 1, "e": 1,
         "label": "Cruelty",
         "desc": "Tanjiro returns home to a tragedy — his entire family slaughtered by a demon. His sister Nezuko is the only survivor, now turned into a demon.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
@@ -59,16 +59,16 @@
         "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
       },
       {
-        "id": "ep02", "s": 1, "e": 2,
+        "id": "s1e02", "s": 1, "e": 2,
         "label": "Trainer Sakonji Urokodaki",
-        "desc": "Tanjiro carries Nezuko and travels to Sagiri Mountain to find the former Water Pillar who may be able to help.",
+        "desc": "Tanjiro carries Nezuko to Sagiri Mountain to find the former Water Pillar who may be able to help.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s1-ep02"
       },
       {
-        "id": "ep03", "s": 1, "e": 3,
+        "id": "s1e03", "s": 1, "e": 3,
         "label": "Sabito and Makomo",
         "desc": "During training, Tanjiro encounters spirits who teach him the secrets of the Water Breathing technique.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
@@ -77,111 +77,90 @@
         "downloadUrl": "https://example.com/download/ds-s1-ep03"
       },
       {
-        "id": "ep04", "s": 1, "e": 4,
+        "id": "s1e04", "s": 1, "e": 4,
         "label": "Final Selection",
-        "desc": "After two years of training, Tanjiro enters the Final Selection exam where he must survive for seven days on a demon-infested mountain.",
+        "desc": "After two years of training, Tanjiro enters the Final Selection exam — seven days surviving on a demon-infested mountain.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s1-ep04"
       },
       {
-        "id": "ep05", "s": 1, "e": 5,
+        "id": "s1e05", "s": 1, "e": 5,
         "label": "My Own Steel",
-        "desc": "Tanjiro survives Final Selection and receives his first mission as an official Demon Slayer Corps member.",
+        "desc": "Tanjiro survives Final Selection and receives his first mission as an official Demon Slayer.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s1-ep05"
       },
       {
-        "id": "ep06", "s": 1, "e": 6,
+        "id": "s1e06", "s": 1, "e": 6,
         "label": "Swordsman Accompanying a Demon",
         "desc": "Tanjiro arrives at Kasugaoji to investigate disappearances, with Nezuko hidden in a box on his back.",
         "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s1-ep06"
-      }
-    ]
-  },
-
-  {
-    "id": "demon-slayer-s2",
-    "title": "Demon Slayer — Season 2",
-    "poster": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/gg4zad41hEQFoFGHbTWMVANS5Nf.jpg",
-    "description": "Tanjiro and his friends join the Flame Hashira Rengoku on the Mugen Train — a mission that becomes a desperate fight for survival against one of the most powerful demons they have ever faced. Then, in the Entertainment District, the battle against Upper Rank demons intensifies.",
-    "isMovie": false,
-    "quality": "HD",
-    "runtime": "45m / ep",
-    "language": "Hindi",
-    "genres": ["Animation", "Action", "Dark Fantasy"],
-    "downloadUrl": "https://example.com/download/demon-slayer-s2",
-    "audioVersions": [
-      { "label": "Hindi",   "icon": "🇮🇳" },
-      { "label": "English", "icon": "🇬🇧" },
-      { "label": "Tamil",   "icon": "🎙️" }
-    ],
-    "episodes": [
+      },
       {
-        "id": "ep01", "s": 2, "e": 1,
+        "id": "s2e01", "s": 2, "e": 1,
         "label": "Flames of the Mugen Train",
-        "desc": "Tanjiro, Zenitsu and Inosuke board the Mugen Train with Flame Hashira Kyojuro Rengoku to investigate the mysterious disappearance of passengers.",
+        "desc": "Tanjiro, Zenitsu and Inosuke board the Mugen Train with Flame Hashira Rengoku to investigate mysterious passenger disappearances.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 2700,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s2-ep01"
       },
       {
-        "id": "ep02", "s": 2, "e": 2,
+        "id": "s2e02", "s": 2, "e": 2,
         "label": "Deep Sleep",
-        "desc": "Everyone on the train is put into a deep sleep by a demon's Blood Demon Art. Tanjiro must find a way to wake everyone up before it's too late.",
+        "desc": "Everyone on the train is put into a deep sleep by a demon's Blood Demon Art. Tanjiro must find a way to break the spell before it's too late.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s2-ep02"
       },
       {
-        "id": "ep03", "s": 2, "e": 3,
+        "id": "s2e03", "s": 2, "e": 3,
         "label": "Akaza",
-        "desc": "The Upper Rank Three demon Akaza appears and engages Rengoku in an intense battle that pushes the Flame Hashira to his absolute limits.",
+        "desc": "Upper Rank Three demon Akaza appears and engages Rengoku in an intense battle that pushes the Flame Hashira to his absolute limits.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s2-ep03"
       },
       {
-        "id": "ep04", "s": 2, "e": 4,
+        "id": "s2e04", "s": 2, "e": 4,
         "label": "Sound Hashira — Tengen Uzui",
-        "desc": "Recovering from the Mugen Train mission, Tanjiro and friends are assigned to the Entertainment District with the flashy Sound Hashira Tengen Uzui.",
+        "desc": "Recovering from the Mugen Train mission, the group is assigned to the Entertainment District with the flashy Sound Hashira Tengen Uzui.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s2-ep04"
       },
       {
-        "id": "ep05", "s": 2, "e": 5,
+        "id": "s2e05", "s": 2, "e": 5,
         "label": "Infiltrating the Entertainment District",
-        "desc": "Tanjiro, Zenitsu and Inosuke disguise themselves to infiltrate the Entertainment District and search for the demon hiding within.",
+        "desc": "Tanjiro, Zenitsu and Inosuke go undercover to infiltrate the Entertainment District and hunt down the demon hiding within.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s2-ep05"
       },
       {
-        "id": "ep06", "s": 2, "e": 6,
+        "id": "s2e06", "s": 2, "e": 6,
         "label": "Daki",
-        "desc": "An Upper Rank demon named Daki reveals herself in the Entertainment District. Her power is unlike anything the group has faced before.",
+        "desc": "Upper Rank demon Daki reveals herself. Her power is unlike anything the group has faced before.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/ds-s2-ep06"
       },
       {
-        "id": "ep07", "s": 2, "e": 7,
+        "id": "s2e07", "s": 2, "e": 7,
         "label": "Transformation",
-        "desc": "Tanjiro's rage unlocks something terrifying within him. Nezuko's demon powers also transform in a shocking and unexpected way.",
+        "desc": "Tanjiro's rage unlocks something terrifying. Nezuko's demon powers also transform in a shocking and unexpected way.",
         "thumb": "https://image.tmdb.org/t/p/w500/qGKHPAFv5JJeQK3bfisZmEwXqTL.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
@@ -191,8 +170,8 @@
   },
 
   {
-    "id": "attack-on-titan-s1",
-    "title": "Attack on Titan — Season 1",
+    "id": "attack-on-titan",
+    "title": "Attack on Titan",
     "poster": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
     "description": "Humanity lives inside cities surrounded by enormous walls protecting them from Titans — gigantic humanoids who devour humans. When the walls are breached, young Eren Yeager vows to exterminate every last Titan.",
@@ -201,7 +180,7 @@
     "runtime": "24m / ep",
     "language": "Hindi",
     "genres": ["Animation", "Action", "Dark Fantasy", "Drama"],
-    "downloadUrl": "https://example.com/download/aot-s1",
+    "downloadUrl": "https://example.com/download/aot",
     "audioVersions": [
       { "label": "Hindi",   "icon": "🇮🇳" },
       { "label": "English", "icon": "🇬🇧" },
@@ -209,16 +188,16 @@
     ],
     "episodes": [
       {
-        "id": "ep01", "s": 1, "e": 1,
+        "id": "s1e01", "s": 1, "e": 1,
         "label": "To You, 2000 Years From Now",
-        "desc": "The Colossal Titan breaches the outermost wall. Eren watches in horror as his mother is devoured. He swears to kill every Titan alive.",
+        "desc": "The Colossal Titan breaches the outermost wall. Eren watches as his mother is devoured. He swears to kill every Titan alive.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s1-ep01"
       },
       {
-        "id": "ep02", "s": 1, "e": 2,
+        "id": "s1e02", "s": 1, "e": 2,
         "label": "That Day: The Fall of Shiganshina",
         "desc": "Survivors flee behind Wall Rose. Eren, Mikasa and Armin struggle to survive in refugee camps, haunted by what they witnessed.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
@@ -227,7 +206,7 @@
         "downloadUrl": "https://example.com/download/aot-s1-ep02"
       },
       {
-        "id": "ep03", "s": 1, "e": 3,
+        "id": "s1e03", "s": 1, "e": 3,
         "label": "A Dim Light Amid Despair",
         "desc": "Eren, Mikasa and Armin join the military training corps, beginning five years of brutal training to fight Titans.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
@@ -236,91 +215,70 @@
         "downloadUrl": "https://example.com/download/aot-s1-ep03"
       },
       {
-        "id": "ep04", "s": 1, "e": 4,
+        "id": "s1e04", "s": 1, "e": 4,
         "label": "The Night of the Closing Ceremony",
-        "desc": "Graduation day arrives. The top ten cadets choose between Survey Corps, Military Police and Garrison. Eren chooses the Survey Corps.",
+        "desc": "Graduation day arrives. The top ten cadets choose between Survey Corps, Military Police and Garrison.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s1-ep04"
       },
       {
-        "id": "ep05", "s": 1, "e": 5,
+        "id": "s1e05", "s": 1, "e": 5,
         "label": "First Battle: The Struggle for Trost",
-        "desc": "The Colossal Titan appears again and breaches Wall Rose at Trost District. Eren and his fellow trainees fight for their lives.",
+        "desc": "The Colossal Titan breaches Wall Rose again. Eren and trainees are thrust into their first real battle against Titans.",
         "thumb": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s1-ep05"
-      }
-    ]
-  },
-
-  {
-    "id": "attack-on-titan-s2",
-    "title": "Attack on Titan — Season 2",
-    "poster": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/rF3TKDMX4EIBuGJi4uovABEBbQr.jpg",
-    "description": "A Titan is spotted inside Wall Rose — meaning the wall may already be breached. As the Survey Corps investigates, shocking truths begin to surface about the Titans, the walls, and the people Eren trusted most.",
-    "isMovie": false,
-    "quality": "HD",
-    "runtime": "24m / ep",
-    "language": "Hindi",
-    "genres": ["Animation", "Action", "Dark Fantasy", "Mystery"],
-    "downloadUrl": "https://example.com/download/aot-s2",
-    "audioVersions": [
-      { "label": "Hindi",   "icon": "🇮🇳" },
-      { "label": "English", "icon": "🇬🇧" },
-      { "label": "Japanese","icon": "🇯🇵" }
-    ],
-    "episodes": [
+      },
       {
-        "id": "ep01", "s": 2, "e": 1,
+        "id": "s2e01", "s": 2, "e": 1,
         "label": "Beast Titan",
-        "desc": "A mysterious Titan with the ability to speak is spotted outside the walls. The Survey Corps discovers Titans inside Wall Rose.",
+        "desc": "A mysterious speaking Titan appears outside the walls. The Survey Corps discovers Titans have somehow entered Wall Rose.",
         "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s2-ep01"
       },
       {
-        "id": "ep02", "s": 2, "e": 2,
+        "id": "s2e02", "s": 2, "e": 2,
         "label": "I'm Home",
-        "desc": "As the Garrison troops seek refuge in a castle, the Survey Corps learns a terrifying secret about how Titans are created.",
+        "desc": "The Garrison troops seek refuge in a castle as the Survey Corps learns a terrifying secret about how Titans are created.",
         "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s2-ep02"
       },
       {
-        "id": "ep03", "s": 2, "e": 3,
+        "id": "s2e03", "s": 2, "e": 3,
         "label": "Southwestward",
-        "desc": "The group trapped in the castle faces an overwhelming Titan siege. Hange Zoë reveals new discoveries about Titan anatomy.",
+        "desc": "The group trapped in the castle faces an overwhelming Titan siege. Hange reveals new discoveries about Titan anatomy.",
         "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s2-ep03"
       },
       {
-        "id": "ep04", "s": 2, "e": 4,
+        "id": "s2e04", "s": 2, "e": 4,
         "label": "Soldier",
-        "desc": "A shocking revelation about the identity of the Armored and Colossal Titans sends the Survey Corps into chaos and despair.",
+        "desc": "A shocking revelation about the identity of the Armored and Colossal Titans sends the Survey Corps into chaos.",
         "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s2-ep04"
       },
       {
-        "id": "ep05", "s": 2, "e": 5,
+        "id": "s2e05", "s": 2, "e": 5,
         "label": "Historia",
-        "desc": "The truth about Historia Reiss and her true identity is revealed. Ymir's past and her connection to the Titans comes to light.",
+        "desc": "The truth about Historia Reiss is revealed. Ymir's past and her connection to the Titans finally comes to light.",
         "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
         "duration": 1440,
         "embedId": "kzpptl1HnNUwlUL",
         "downloadUrl": "https://example.com/download/aot-s2-ep05"
       },
       {
-        "id": "ep06", "s": 2, "e": 6,
+        "id": "s2e06", "s": 2, "e": 6,
         "label": "Warrior",
         "desc": "Reiner and Bertholdt reveal themselves as the Armored and Colossal Titans and kidnap Eren. A desperate rescue mission begins.",
         "thumb": "https://image.tmdb.org/t/p/w500/sOpniS1HdN3nYFl2bC9GqMNTPc5.jpg",
