@@ -1,0 +1,17 @@
+{
+  "title": "Big Buck Bunny",
+  "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/400px-Big_buck_bunny_poster_big.jpg",
+  "backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/1200px-Big_buck_bunny_poster_big.jpg",
+  "description": "A large, lovable rabbit deals with three bullying rodents who love to torment small animals. When he becomes their target, he decides to fight back with a series of traps and pranks.",
+  "isMovie": true,
+  "quality": "HD",
+  "runtime": "9m 56s",
+  "language": "English",
+  "genres": ["Animation", "Comedy", "Family"],
+  "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+  "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+  "audioVersions": [
+    { "label": "Hindi",   "icon": "🇮🇳", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
+    { "label": "English", "icon": "🇬🇧", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" }
+  ]
+}
