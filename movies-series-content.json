@@ -1,0 +1,47 @@
+{
+  "title": "Demon Slayer: Kimetsu no Yaiba",
+  "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/original/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
+  "description": "Tanjiro Kamado, a kind-hearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself.",
+  "isMovie": false,
+  "quality": "HD",
+  "runtime": "24m / ep",
+  "language": "Hindi",
+  "genres": ["Animation", "Action", "Adventure"],
+  "downloadUrl": "https://example.com/download/season1",
+  "audioVersions": [
+    { "label": "Hindi",   "icon": "🇮🇳" },
+    { "label": "English", "icon": "🇬🇧" },
+    { "label": "Tamil",   "icon": "🎙️" },
+    { "label": "Telugu",  "icon": "🎙️" }
+  ],
+  "episodes": [
+    {
+      "id": "ep01", "s": 1, "e": 1,
+      "label": "Cruelty",
+      "desc": "Tanjiro returns home to find his family has been slaughtered by a demon.",
+      "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+      "duration": 596,
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "downloadUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": "ep02", "s": 1, "e": 2,
+      "label": "Trainer Sakonji Urokodaki",
+      "desc": "Tanjiro takes his injured sister to a man who may be able to help her.",
+      "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+      "duration": 1440,
+      "embedId": "kzpptl1HnNUwlUL",
+      "downloadUrl": "https://example.com/download/ep02"
+    },
+    {
+      "id": "ep03", "s": 1, "e": 3,
+      "label": "Sabito and Makomo",
+      "desc": "Tanjiro begins his training under the ex-Water Pillar.",
+      "thumb": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+      "duration": 1440,
+      "embedId": "kzpptl1HnNUwlUL",
+      "downloadUrl": "https://example.com/download/ep03"
+    }
+  ]
+}
