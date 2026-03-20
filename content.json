@@ -1,1 +1,2992 @@
-
+[
+  {
+    "id": "umar-ibn-al-khattab",
+    "title": "Umar ibn Al-Khattāb",
+    "sub": "2012 · MBC Drama",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/8/82/Omar_Farouk_Series.jpg",
+    "backdrop": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+    "description": "The life of Umar ibn Al-Khattab (R.A), the second Caliph of Islam — from his early days as an enemy of Islam to his conversion, his leadership under Prophet Muhammad (PBUH), and his historic caliphate that transformed the Muslim world.",
+    "isMovie": false,
+    "quality": "HD",
+    "runtime": "45m / ep",
+    "language": "Urdu",
+    "genres": [
+      "Islamic",
+      "History",
+      "Drama",
+      "Companions"
+    ],
+    "badges": [
+      "HD",
+      "URDU DUB"
+    ],
+    "autoPlayAfter": 15,
+    "downloadUrl": "",
+    "audioVersions": [
+      {
+        "label": "Urdu",
+        "icon": "🇵🇰",
+        "url": ""
+      }
+    ],
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "subtitles": [],
+    "episodes": [
+      {
+        "id": "umar-s1e01",
+        "s": 1,
+        "e": 1,
+        "label": "Omar Ibn Khattab",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800904.us.archive.org/22/items/omar-series-episode-1-in-urdu-translation/Omar%20Series%20-%20Episode%201%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800904.us.archive.org/22/items/omar-series-episode-1-in-urdu-translation/Omar%20Series%20-%20Episode%201%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e02",
+        "s": 1,
+        "e": 2,
+        "label": "Islam Begins",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia903107.us.archive.org/21/items/omar-series-episode-2-in-urdu-translation/Omar%20Series%20-%20Episode%202%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia903107.us.archive.org/21/items/omar-series-episode-2-in-urdu-translation/Omar%20Series%20-%20Episode%202%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e03",
+        "s": 1,
+        "e": 3,
+        "label": "Muhammad's Message & Abu Lahab",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801007.us.archive.org/34/items/omar-series-episode-3-in-urdu-translation/Omar%20Series%20-%20Episode%203%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801007.us.archive.org/34/items/omar-series-episode-3-in-urdu-translation/Omar%20Series%20-%20Episode%203%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e04",
+        "s": 1,
+        "e": 4,
+        "label": "Family Affairs, Torture and Boycott of Muslims",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800406.us.archive.org/28/items/omar-series-episode-4-in-urdu-translation/Omar%20Series%20-%20Episode%204%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800406.us.archive.org/28/items/omar-series-episode-4-in-urdu-translation/Omar%20Series%20-%20Episode%204%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e05",
+        "s": 1,
+        "e": 5,
+        "label": "Persecution of Muslims by the Meccans",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801203.us.archive.org/14/items/omar-series-episode-5-in-urdu-translation/Omar%20Series%20-%20Episode%205%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801203.us.archive.org/14/items/omar-series-episode-5-in-urdu-translation/Omar%20Series%20-%20Episode%205%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e06",
+        "s": 1,
+        "e": 6,
+        "label": "Bilal ibn Rabah Gains Freedom and Embraces Islam",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800905.us.archive.org/34/items/omar-series-episode-6-in-urdu-translation/Omar%20Series%20-%20Episode%206%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800905.us.archive.org/34/items/omar-series-episode-6-in-urdu-translation/Omar%20Series%20-%20Episode%206%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e07",
+        "s": 1,
+        "e": 7,
+        "label": "Migration to Abyssinia",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801407.us.archive.org/19/items/omar-series-episode-7-in-urdu-translation/Omar%20Series%20-%20Episode%207%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801407.us.archive.org/19/items/omar-series-episode-7-in-urdu-translation/Omar%20Series%20-%20Episode%207%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e08",
+        "s": 1,
+        "e": 8,
+        "label": "Omar Embraces Islam, First Sermon",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia601004.us.archive.org/19/items/omar-series-episode-8-in-urdu-translation/Omar%20Series%20-%20Episode%208%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia601004.us.archive.org/19/items/omar-series-episode-8-in-urdu-translation/Omar%20Series%20-%20Episode%208%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e09",
+        "s": 1,
+        "e": 9,
+        "label": "Boycott Against Muslims",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia803206.us.archive.org/25/items/omar-series-episode-9-in-urdu-translation/Omar%20Series%20-%20Episode%209%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia803206.us.archive.org/25/items/omar-series-episode-9-in-urdu-translation/Omar%20Series%20-%20Episode%209%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e10",
+        "s": 1,
+        "e": 10,
+        "label": "Hijrah to Yathrib, Medina, Building Al-Masjid an-Nabawi",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800905.us.archive.org/11/items/omar-series-episode-10-in-urdu-translation/Omar%20Series%20-%20Episode%2010%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800905.us.archive.org/11/items/omar-series-episode-10-in-urdu-translation/Omar%20Series%20-%20Episode%2010%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e11",
+        "s": 1,
+        "e": 11,
+        "label": "Battle of Badr, Death of Abu Jahl",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia601004.us.archive.org/26/items/omar-series-episode-11-in-urdu-translation/Omar%20Series%20-%20Episode%2011%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia601004.us.archive.org/26/items/omar-series-episode-11-in-urdu-translation/Omar%20Series%20-%20Episode%2011%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e12",
+        "s": 1,
+        "e": 12,
+        "label": "Quraish Plan for the Second Battle Against Muslims",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia600408.us.archive.org/11/items/omar-series-episode-12-in-urdu-translation/Omar%20Series%20-%20Episode%2012%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia600408.us.archive.org/11/items/omar-series-episode-12-in-urdu-translation/Omar%20Series%20-%20Episode%2012%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e13",
+        "s": 1,
+        "e": 13,
+        "label": "Battle of Uhud, Digging the Trench",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia904508.us.archive.org/10/items/omar-series-episode-13-in-urdu-translation/Omar%20Series%20-%20Episode%2013%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia904508.us.archive.org/10/items/omar-series-episode-13-in-urdu-translation/Omar%20Series%20-%20Episode%2013%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e14",
+        "s": 1,
+        "e": 14,
+        "label": "Battle of Khandaq, Treaty of Hudaibiyah",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801701.us.archive.org/2/items/omar-series-episode-14-in-urdu-translation/Omar%20Series%20-%20Episode%2014%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801701.us.archive.org/2/items/omar-series-episode-14-in-urdu-translation/Omar%20Series%20-%20Episode%2014%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e15",
+        "s": 1,
+        "e": 15,
+        "label": "The Year of Delegations, First Hajj",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800905.us.archive.org/10/items/omar-series-episode-15-in-urdu-translation/Omar%20Series%20-%20Episode%2015%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800905.us.archive.org/10/items/omar-series-episode-15-in-urdu-translation/Omar%20Series%20-%20Episode%2015%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e16",
+        "s": 1,
+        "e": 16,
+        "label": "Khalid ibn al-Walid Embraces Islam, Conquest of Mecca",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia804608.us.archive.org/19/items/omar-series-episode-16-in-urdu-translation/Omar%20Series%20-%20Episode%2016%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia804608.us.archive.org/19/items/omar-series-episode-16-in-urdu-translation/Omar%20Series%20-%20Episode%2016%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e17",
+        "s": 1,
+        "e": 17,
+        "label": "Abu Sufyan Embraces Islam, Death of Muhammad PBUH",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia601403.us.archive.org/19/items/omar-series-episode-17-in-urdu-translation/Omar%20Series%20-%20Episode%2017%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia601403.us.archive.org/19/items/omar-series-episode-17-in-urdu-translation/Omar%20Series%20-%20Episode%2017%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e18",
+        "s": 1,
+        "e": 18,
+        "label": "Abu Bakr Becomes the First Caliph",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800900.us.archive.org/18/items/omar-series-episode-18-in-urdu-translation/Omar%20Series%20-%20Episode%2018%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800900.us.archive.org/18/items/omar-series-episode-18-in-urdu-translation/Omar%20Series%20-%20Episode%2018%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e19",
+        "s": 1,
+        "e": 19,
+        "label": "Rise of Sajah, Ridda Wars",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801005.us.archive.org/5/items/omar-series-episode-19-in-urdu-translation/Omar%20Series%20-%20Episode%2019%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801005.us.archive.org/5/items/omar-series-episode-19-in-urdu-translation/Omar%20Series%20-%20Episode%2019%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e20",
+        "s": 1,
+        "e": 20,
+        "label": "Battle of Yamama Against Musaylimah",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800901.us.archive.org/16/items/omar-series-episode-20-in-urdu-translation/Omar%20Series%20-%20Episode%2020%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800901.us.archive.org/16/items/omar-series-episode-20-in-urdu-translation/Omar%20Series%20-%20Episode%2020%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e21",
+        "s": 1,
+        "e": 21,
+        "label": "Muslim Conquest of Persia",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia902903.us.archive.org/31/items/omar-series-episode-21-in-urdu-translation/Omar%20Series%20-%20Episode%2021%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia902903.us.archive.org/31/items/omar-series-episode-21-in-urdu-translation/Omar%20Series%20-%20Episode%2021%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e22",
+        "s": 1,
+        "e": 22,
+        "label": "Death of Abu Bakr, Umar Becomes Caliph, Battle of Yarmouk",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801805.us.archive.org/14/items/omar-series-episode-22-in-urdu-translation/Omar%20Series%20-%20Episode%2022%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801805.us.archive.org/14/items/omar-series-episode-22-in-urdu-translation/Omar%20Series%20-%20Episode%2022%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e23",
+        "s": 1,
+        "e": 23,
+        "label": "Battle of Yarmouk Against Theodore Trithyrius",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801807.us.archive.org/18/items/omar-series-episode-23-in-urdu-translation/Omar%20Series%20-%20Episode%2023%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801807.us.archive.org/18/items/omar-series-episode-23-in-urdu-translation/Omar%20Series%20-%20Episode%2023%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e24",
+        "s": 1,
+        "e": 24,
+        "label": "Muslim Conquest of the Levant",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia801008.us.archive.org/28/items/omar-series-episode-24-in-urdu-translation/Omar%20Series%20-%20Episode%2024%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia801008.us.archive.org/28/items/omar-series-episode-24-in-urdu-translation/Omar%20Series%20-%20Episode%2024%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e25",
+        "s": 1,
+        "e": 25,
+        "label": "Omar and His Subjects",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia803406.us.archive.org/11/items/omar-series-episode-25-in-urdu-translation/Omar%20Series%20-%20Episode%2025%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia803406.us.archive.org/11/items/omar-series-episode-25-in-urdu-translation/Omar%20Series%20-%20Episode%2025%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e26",
+        "s": 1,
+        "e": 26,
+        "label": "Siege of Damascus",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia802905.us.archive.org/31/items/omar-series-episode-26-in-urdu-translation/Omar%20Series%20-%20Episode%2026%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia802905.us.archive.org/31/items/omar-series-episode-26-in-urdu-translation/Omar%20Series%20-%20Episode%2026%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e27",
+        "s": 1,
+        "e": 27,
+        "label": "Battle of al-Qadisiyyah Against Sassanids",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800902.us.archive.org/5/items/omar-series-episode-27-in-urdu-translation/Omar%20Series%20-%20Episode%2027%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800902.us.archive.org/5/items/omar-series-episode-27-in-urdu-translation/Omar%20Series%20-%20Episode%2027%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e28",
+        "s": 1,
+        "e": 28,
+        "label": "Siege of Jerusalem",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia800405.us.archive.org/32/items/omar-series-episode-28-in-urdu-translation/Omar%20Series%20-%20Episode%2028%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia800405.us.archive.org/32/items/omar-series-episode-28-in-urdu-translation/Omar%20Series%20-%20Episode%2028%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "umar-s1e29",
+        "s": 1,
+        "e": 29,
+        "label": "Famine Year",
+        "desc": "",
+        "thumb": "https://deenspiration.com/wp-content/uploads/2020/07/omar-ibn-al-khattab-facts.jpg",
+        "duration": 2700,
+        "url": "https://ia601405.us.archive.org/27/items/omar-series-episode-29-in-urdu-translation/Omar%20Series%20-%20Episode%2029%20in%20Urdu%20Translation.mp4?cnt=0",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": "https://ia601405.us.archive.org/27/items/omar-series-episode-29-in-urdu-translation/Omar%20Series%20-%20Episode%2029%20in%20Urdu%20Translation.mp4?cnt=0"
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prophet-yousuf",
+    "title": "Prophet Yousuf (A.S)",
+    "sub": "2008 · IRIB TV1",
+    "poster": "",
+    "backdrop": "",
+    "description": "The life story of Prophet Yousuf (Joseph), peace be upon him — from his childhood in Canaan, his trials of betrayal and imprisonment in Egypt, to his rise as a trusted governor and the miraculous reunion with his family. Based on Surah Yusuf, the most beautiful story in the Quran.",
+    "isMovie": false,
+    "quality": "HD",
+    "runtime": "45m / ep",
+    "language": "Urdu",
+    "genres": [
+      "Islamic",
+      "History",
+      "Drama",
+      "Prophets"
+    ],
+    "badges": [
+      "HD",
+      "URDU DUB"
+    ],
+    "autoPlayAfter": 15,
+    "downloadUrl": "",
+    "audioVersions": [
+      {
+        "label": "Urdu",
+        "icon": "🇵🇰",
+        "url": ""
+      }
+    ],
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "subtitles": [],
+    "episodes": [
+      {
+        "id": "py-s1e01",
+        "s": 1,
+        "e": 1,
+        "label": "The Birth of Yousuf",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e02",
+        "s": 1,
+        "e": 2,
+        "label": "The Dream of Yousuf",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e03",
+        "s": 1,
+        "e": 3,
+        "label": "Jealousy of the Brothers",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e04",
+        "s": 1,
+        "e": 4,
+        "label": "The Plot Against Yousuf",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e05",
+        "s": 1,
+        "e": 5,
+        "label": "Thrown into the Well",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e06",
+        "s": 1,
+        "e": 6,
+        "label": "Yousuf is Sold",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e07",
+        "s": 1,
+        "e": 7,
+        "label": "Journey to Egypt",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e08",
+        "s": 1,
+        "e": 8,
+        "label": "Arrival at Aziz's Palace",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e09",
+        "s": 1,
+        "e": 9,
+        "label": "Life in the Palace",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e10",
+        "s": 1,
+        "e": 10,
+        "label": "Zulaikha's Obsession",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e11",
+        "s": 1,
+        "e": 11,
+        "label": "The Temptation",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e12",
+        "s": 1,
+        "e": 12,
+        "label": "Yousuf's Innocence",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e13",
+        "s": 1,
+        "e": 13,
+        "label": "Thrown into Prison",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e14",
+        "s": 1,
+        "e": 14,
+        "label": "Life Behind Bars",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e15",
+        "s": 1,
+        "e": 15,
+        "label": "The Two Prisoners",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e16",
+        "s": 1,
+        "e": 16,
+        "label": "The Dreams in Prison",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e17",
+        "s": 1,
+        "e": 17,
+        "label": "The Interpretation",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e18",
+        "s": 1,
+        "e": 18,
+        "label": "Forgotten in Prison",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e19",
+        "s": 1,
+        "e": 19,
+        "label": "The King's Dream",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e20",
+        "s": 1,
+        "e": 20,
+        "label": "Yousuf Interprets the King's Dream",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e21",
+        "s": 1,
+        "e": 21,
+        "label": "Release from Prison",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e22",
+        "s": 1,
+        "e": 22,
+        "label": "Yousuf Before the King",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e23",
+        "s": 1,
+        "e": 23,
+        "label": "Appointed as Treasurer",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e24",
+        "s": 1,
+        "e": 24,
+        "label": "The Seven Years of Abundance",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e25",
+        "s": 1,
+        "e": 25,
+        "label": "The Years of Famine Begin",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e26",
+        "s": 1,
+        "e": 26,
+        "label": "Nations Seek Help from Egypt",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e27",
+        "s": 1,
+        "e": 27,
+        "label": "The Brothers Come to Egypt",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e28",
+        "s": 1,
+        "e": 28,
+        "label": "Yousuf Recognises His Brothers",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e29",
+        "s": 1,
+        "e": 29,
+        "label": "The First Meeting",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e30",
+        "s": 1,
+        "e": 30,
+        "label": "Yousuf Tests His Brothers",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e31",
+        "s": 1,
+        "e": 31,
+        "label": "Return to Canaan",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e32",
+        "s": 1,
+        "e": 32,
+        "label": "Ya'qub's Grief",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e33",
+        "s": 1,
+        "e": 33,
+        "label": "Benjamin is Brought to Egypt",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e34",
+        "s": 1,
+        "e": 34,
+        "label": "The Golden Cup",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e35",
+        "s": 1,
+        "e": 35,
+        "label": "Benjamin is Detained",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e36",
+        "s": 1,
+        "e": 36,
+        "label": "The Brothers' Plea",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e37",
+        "s": 1,
+        "e": 37,
+        "label": "Yousuf's Inner Conflict",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e38",
+        "s": 1,
+        "e": 38,
+        "label": "The Revelation",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e39",
+        "s": 1,
+        "e": 39,
+        "label": "Yousuf Reveals His Identity",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e40",
+        "s": 1,
+        "e": 40,
+        "label": "Tears of Reunion",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e41",
+        "s": 1,
+        "e": 41,
+        "label": "Message to Ya'qub",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e42",
+        "s": 1,
+        "e": 42,
+        "label": "Ya'qub Regains His Sight",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e43",
+        "s": 1,
+        "e": 43,
+        "label": "The Journey to Egypt",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e44",
+        "s": 1,
+        "e": 44,
+        "label": "Family Reunited",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e45",
+        "s": 1,
+        "e": 45,
+        "label": "Ya'qub Enters Egypt",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e46",
+        "s": 1,
+        "e": 46,
+        "label": "Yousuf Welcomes His Father",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e47",
+        "s": 1,
+        "e": 47,
+        "label": "Zulaikha's Regret",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e48",
+        "s": 1,
+        "e": 48,
+        "label": "The Truth About Zulaikha",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e49",
+        "s": 1,
+        "e": 49,
+        "label": "Justice and Mercy",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e50",
+        "s": 1,
+        "e": 50,
+        "label": "Yousuf's Wisdom in Governance",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e51",
+        "s": 1,
+        "e": 51,
+        "label": "The People of Egypt Prosper",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e52",
+        "s": 1,
+        "e": 52,
+        "label": "Enemies Seek Forgiveness",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e53",
+        "s": 1,
+        "e": 53,
+        "label": "Yousuf Forgives His Brothers",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e54",
+        "s": 1,
+        "e": 54,
+        "label": "Years of Peace",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e55",
+        "s": 1,
+        "e": 55,
+        "label": "Ya'qub's Final Days",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e56",
+        "s": 1,
+        "e": 56,
+        "label": "The Legacy of Ya'qub",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e57",
+        "s": 1,
+        "e": 57,
+        "label": "Yousuf's Prayer",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e58",
+        "s": 1,
+        "e": 58,
+        "label": "Trials of Leadership",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e59",
+        "s": 1,
+        "e": 59,
+        "label": "The Final Test",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e60",
+        "s": 1,
+        "e": 60,
+        "label": "Yousuf's Supplication to Allah",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      },
+      {
+        "id": "py-s1e61",
+        "s": 1,
+        "e": 61,
+        "label": "The End of an Era — Yousuf's Legacy",
+        "desc": "",
+        "thumb": "",
+        "duration": 2700,
+        "url": "",
+        "downloadUrl": "",
+        "qualitySources": [
+          {
+            "label": "1080p",
+            "url": ""
+          }
+        ],
+        "skipIntro": {
+          "start": 5,
+          "end": 90,
+          "label": "Skip Intro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "islamic-movie-01",
+    "title": "Islamic Movie 1",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-02",
+    "title": "Islamic Movie 2",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-03",
+    "title": "Islamic Movie 3",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-04",
+    "title": "Islamic Movie 4",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-05",
+    "title": "Islamic Movie 5",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-06",
+    "title": "Islamic Movie 6",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-07",
+    "title": "Islamic Movie 7",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-08",
+    "title": "Islamic Movie 8",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-09",
+    "title": "Islamic Movie 9",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-10",
+    "title": "Islamic Movie 10",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-11",
+    "title": "Islamic Movie 11",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-12",
+    "title": "Islamic Movie 12",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-13",
+    "title": "Islamic Movie 13",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-14",
+    "title": "Islamic Movie 14",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-15",
+    "title": "Islamic Movie 15",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-16",
+    "title": "Islamic Movie 16",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-17",
+    "title": "Islamic Movie 17",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-18",
+    "title": "Islamic Movie 18",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-19",
+    "title": "Islamic Movie 19",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-20",
+    "title": "Islamic Movie 20",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-21",
+    "title": "Islamic Movie 21",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-22",
+    "title": "Islamic Movie 22",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-23",
+    "title": "Islamic Movie 23",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-24",
+    "title": "Islamic Movie 24",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-25",
+    "title": "Islamic Movie 25",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-26",
+    "title": "Islamic Movie 26",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-27",
+    "title": "Islamic Movie 27",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-28",
+    "title": "Islamic Movie 28",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-29",
+    "title": "Islamic Movie 29",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  },
+  {
+    "id": "islamic-movie-30",
+    "title": "Islamic Movie 30",
+    "sub": "YEAR · STUDIO",
+    "poster": "",
+    "backdrop": "",
+    "description": "",
+    "isMovie": true,
+    "quality": "HD",
+    "runtime": "RUNTIME",
+    "language": "Hindi",
+    "genres": [
+      "Islamic"
+    ],
+    "badges": [
+      "HD"
+    ],
+    "duration": 7200,
+    "downloadUrl": "",
+    "url": "",
+    "qualitySources": [
+      {
+        "label": "1080p",
+        "url": ""
+      }
+    ],
+    "audioVersions": [],
+    "subtitles": [],
+    "skipIntro": null,
+    "nim": true
+  }
+]
