@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Islamic Movies & Series</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+/* ── RESET ───────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --red:#e50914;
+  --bg:#080808;
+  --card:#111;
+  --bdr:#1c1c1c;
+  --mut:#777;
+  --font:'Poppins',sans-serif;
+  --disp:'Bebas Neue',sans-serif;
+  --sb:64px;
+  --sb-open:240px;
+  /* Snappier easing + shorter duration = feels faster */
+  --T:200ms;
+  --E:cubic-bezier(0.25,0,0,1);
+}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:#f1f1f1;font-family:var(--font);overflow-x:hidden;}
+a{text-decoration:none;color:inherit;}img{display:block;}
+::-webkit-scrollbar{width:4px;height:4px;}
+::-webkit-scrollbar-thumb{background:#222;border-radius:4px;}
+
+/* ══════════════════════════════════════════════════════
+   SIDEBAR
+   contain:strict  → completely isolated from page layout
+   width transition → only reflows inside the sidebar box
+   (content shifts via GPU transform, NOT padding/margin)
+══════════════════════════════════════════════════════ */
+.sidebar{
+  position:fixed;top:0;left:0;bottom:0;z-index:1000;
+  width:var(--sb);
+  background:#0a0a0a;
+  border-right:1px solid #181818;
+  display:flex;flex-direction:column;
+  overflow:hidden;
+  contain:strict;               /* full isolation — zero cross-page reflow */
+  will-change:width;            /* hint compositor ahead of time */
+  transition:width var(--T) var(--E);
+}
+.sidebar.open{
+  width:var(--sb-open);
+  box-shadow:8px 0 40px rgba(0,0,0,.75);
+}
+
+/* toggle */
+.sb-toggle{
+  height:var(--sb);flex-shrink:0;
+  display:flex;align-items:center;
+  padding-left:calc(var(--sb)/2 - 9px);
+  gap:16px;white-space:nowrap;overflow:hidden;
+  background:none;border:none;border-bottom:1px solid #161616;
+  color:#444;cursor:pointer;font-size:1rem;
+  /* only transition the props that actually change */
+  transition:color var(--T) var(--E),background-color var(--T) var(--E);
+}
+.sb-toggle:hover{color:#fff;background:rgba(255,255,255,.04);}
+
+.sb-logo{
+  font-family:var(--disp);font-size:1.3rem;letter-spacing:2px;color:#fff;
+  white-space:nowrap;pointer-events:none;
+  /* GPU-only: opacity + transform */
+  opacity:0;transform:translateX(-6px);
+  transition:opacity var(--T) var(--E),transform var(--T) var(--E);
+}
+.sb-logo span{color:var(--red);}
+.sidebar.open .sb-logo{opacity:1;transform:translateX(0);}
+
+/* section label */
+.sb-label{
+  font-size:.52rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  color:#2a2a2a;padding:14px 0 5px calc(var(--sb)/2 - 9px + 2.5px);
+  white-space:nowrap;flex-shrink:0;
+  opacity:0;transition:opacity var(--T) var(--E);
+}
+.sidebar.open .sb-label{opacity:1;}
+
+/* item */
+.sb-item{
+  width:100%;height:44px;flex-shrink:0;
+  display:flex;align-items:center;overflow:hidden;white-space:nowrap;
+  background:none;border:none;border-left:2.5px solid transparent;
+  color:#555;cursor:pointer;font-family:var(--font);
+  transition:color var(--T) var(--E),
+             background-color var(--T) var(--E),
+             border-color var(--T) var(--E);
+}
+.sb-item:hover{color:#ddd;background:rgba(255,255,255,.05);}
+.sb-item.active{color:#fff;border-left-color:var(--red);background:rgba(229,9,20,.07);}
+.sb-item.active .sb-icon{color:var(--red);}
+
+.sb-icon{
+  min-width:calc(var(--sb) - 2.5px);
+  display:flex;align-items:center;justify-content:center;
+  font-size:.95rem;flex-shrink:0;
+  transition:color var(--T) var(--E);
+}
+.sb-text{
+  font-size:.78rem;font-weight:500;pointer-events:none;
+  /* GPU-only */
+  opacity:0;transform:translateX(-4px);
+  transition:opacity var(--T) var(--E),transform var(--T) var(--E);
+}
+.sidebar.open .sb-text{opacity:1;transform:translateX(0);}
+
+.sb-badge{
+  margin-left:auto;margin-right:12px;flex-shrink:0;
+  font-size:.54rem;font-weight:700;
+  background:rgba(255,255,255,.07);border-radius:10px;padding:2px 7px;
+  opacity:0;transition:opacity var(--T) var(--E);
+}
+.sidebar.open .sb-badge{opacity:1;}
+.sb-item.active .sb-badge{background:rgba(229,9,20,.22);color:#ff7070;}
+
+.sb-cats{flex:1;overflow-y:auto;overflow-x:hidden;scrollbar-width:none;}
+.sb-cats::-webkit-scrollbar{display:none;}
+.sb-divider{height:1px;background:#161616;margin:4px 0;flex-shrink:0;}
+
+/* mobile veil */
+.sb-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,.8);z-index:999;
+  opacity:0;pointer-events:none;
+  transition:opacity var(--T) var(--E);
+}
+.sb-overlay.show{opacity:1;pointer-events:all;}
+
+/* ══════════════════════════════════════════════════════
+   PAGE WRAP + NAVBAR
+   KEY OPTIMISATION: instead of animating padding-left
+   (layout) or left (layout), we animate transform on
+   both — pure GPU compositor, ZERO layout reflow.
+
+   Desktop collapsed  → translateX(64px)
+   Desktop expanded   → translateX(240px)
+   Mobile             → translateX(0)  [sidebar overlays]
+══════════════════════════════════════════════════════ */
+#pageWrap{
+  transform:translateX(var(--sb));
+  will-change:transform;
+  transition:transform var(--T) var(--E);
+  min-height:100vh;
+}
+body.sb-open #pageWrap{transform:translateX(var(--sb-open));}
+
+.navbar{
+  position:fixed;top:0;left:0;right:0;height:var(--sb);z-index:900;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 3%;
+  background:transparent;
+  /* width shrinks via right:0 + transform offset — no layout */
+  transform:translateX(var(--sb));
+  will-change:transform;
+  transition:transform var(--T) var(--E),background-color .22s;
+}
+.navbar::before{
+  content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(to bottom,rgba(8,8,8,.95),transparent);
+  transition:opacity .22s;
+}
+.navbar.scrolled{background:rgba(8,8,8,.97);}
+.navbar.scrolled::before{opacity:0;}
+body.sb-open .navbar{transform:translateX(var(--sb-open));}
+
+.nav-logo{font-family:var(--disp);font-size:1.9rem;letter-spacing:2px;color:#fff;}
+.nav-logo span{color:var(--red);}
+.nav-links{display:flex;gap:20px;}
+.nav-links a{font-size:.8rem;font-weight:500;color:#aaa;transition:color .14s;}
+.nav-links a:hover,.nav-links a.active{color:#fff;}
+.nav-right{display:flex;align-items:center;padding-right:28px;}
+.nav-search{
+  display:flex;align-items:center;gap:10px;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);
+  border-radius:28px;padding:10px 20px;cursor:text;
+  transition:background .16s,border-color .16s;
+}
+.nav-search:hover{background:rgba(255,255,255,.11);border-color:rgba(255,255,255,.22);}
+.nav-search input{
+  background:none;border:none;outline:none;
+  color:#fff;font-family:var(--font);font-size:.92rem;width:200px;
+}
+.nav-search input::placeholder{color:#555;}
+.nav-search i{color:#666;font-size:.88rem;}
+.mob-menu-btn{
+  display:none;align-items:center;justify-content:center;
+  width:36px;height:36px;border-radius:7px;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+  color:#fff;font-size:.9rem;cursor:pointer;transition:background .14s;
+}
+.mob-menu-btn:hover{background:rgba(255,255,255,.12);}
+
+/* ── HERO ─────────────────────────────────────────────
+   image on RIGHT, info on LEFT — exact like screenshot.
+──────────────────────────────────────────────────────── */
+.hero{
+  position:relative;
+  height:92vh;min-height:520px;max-height:900px;
+  display:flex;align-items:center;
+  overflow:hidden;
+}
+/* bg image: right 65%, GPU opacity-only transition */
+.hero-bg{
+  position:absolute;top:0;right:0;
+  width:72%;height:100%;
+  background-size:cover;background-position:center top;
+  transition:opacity .6s ease;
+  will-change:opacity;
+}
+/* static gradient overlay — never repaints */
+.hero-grad{
+  position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(90deg,
+      #080808 0%,#080808 15%,
+      rgba(8,8,8,.94) 30%,
+      rgba(8,8,8,.6) 52%,
+      rgba(8,8,8,.1) 78%,
+      transparent 100%),
+    linear-gradient(0deg,rgba(8,8,8,.8) 0%,transparent 40%);
+}
+/* text block: left side */
+.hero-content{
+  position:relative;z-index:2;
+  padding:0 0 0 4.5%;max-width:46%;
+  animation:heroIn .6s var(--E) both;
+}
+@keyframes heroIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:none;}}
+
+/* "N SERIES" kicker */
+.hero-badge{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--red);color:#fff;
+  font-size:.6rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  padding:4px 11px;border-radius:3px;margin-bottom:12px;
+}
+.hero-title{
+  font-family:var(--disp);
+  font-size:clamp(3rem,6.5vw,5.8rem);
+  line-height:.9;letter-spacing:.5px;color:#fff;margin-bottom:10px;
+}
+.hero-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;}
+.hero-meta span{font-size:.73rem;color:#bbb;font-weight:500;display:flex;align-items:center;gap:4px;}
+.hero-meta i{color:var(--red);font-size:.64rem;}
+.hero-desc{
+  font-size:.82rem;line-height:1.7;color:#bbb;margin-bottom:24px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+  max-width:420px;
+}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap;}
+.hero-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 28px;border-radius:50px;
+  font-family:var(--font);font-size:.84rem;font-weight:600;border:none;cursor:pointer;
+  transition:transform .16s,filter .16s,background-color .16s;
+  will-change:transform;
+}
+.hero-btn:hover{transform:scale(1.04) translateZ(0);}
+.hero-btn-play{background:#fff;color:#000;}
+.hero-btn-play:hover{filter:brightness(.9);}
+/* NO backdrop-filter — kills mobile perf */
+.hero-btn-info{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.25);}
+.hero-btn-info:hover{background:rgba(255,255,255,.2);}
+.hero-indicators{position:absolute;bottom:20px;right:3%;display:flex;gap:7px;z-index:3;}
+.hero-dot{
+  width:6px;height:6px;border-radius:50%;border:none;
+  background:rgba(255,255,255,.22);cursor:pointer;
+  transition:background .22s,width .22s,border-radius .22s;
+}
+.hero-dot.active{background:var(--red);width:22px;border-radius:3px;}
+
+/* ── SECTIONS ─────────────────────────────────────── */
+.sections{padding:0 0 64px;overflow:visible;}
+.section{margin-bottom:6px;overflow:visible;}
+.section-header{display:flex;align-items:center;gap:10px;padding:26px 3.5% 12px;}
+.section-title{
+  font-family:var(--disp);font-size:1.4rem;letter-spacing:1px;color:#fff;
+  display:flex;align-items:center;gap:10px;
+}
+.section-count{
+  font-family:var(--font);font-size:.62rem;color:var(--mut);font-weight:600;
+  background:rgba(255,255,255,.06);padding:2px 8px;border-radius:20px;
+}
+.cat-hidden{display:none!important;}
+.no-results{display:none;padding:60px 4%;text-align:center;color:var(--mut);}
+.no-results.show{display:block;}
+.no-results i{font-size:2.5rem;color:#1e1e1e;display:block;margin-bottom:12px;}
+.error-screen{display:none;flex-direction:column;align-items:center;justify-content:center;
+  min-height:50vh;gap:14px;padding:40px;text-align:center;}
+.error-screen.show{display:flex;}
+.error-screen i{font-size:2.8rem;color:var(--red);}
+.error-screen h2{font-size:1.2rem;}
+.error-screen p{font-size:.82rem;color:var(--mut);max-width:400px;}
+.error-screen code{font-size:.7rem;color:var(--red);word-break:break-all;}
+
+/* ── CARD ROW ─────────────────────────────────────── */
+.card-row-wrap{position:relative;}
+.card-row{
+  display:flex;gap:10px;
+  overflow-x:auto;overflow-y:visible;
+  padding:30px 3.5% 30px;
+  scroll-behavior:smooth;scrollbar-width:none;
+}
+.card-row::-webkit-scrollbar{display:none;}
+.row-arrow{
+  position:absolute;top:50%;transform:translateY(-50%);z-index:10;
+  width:36px;height:70px;
+  background:rgba(8,8,8,.88);border:1px solid rgba(255,255,255,.07);
+  border-radius:4px;color:#fff;font-size:.88rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;
+  transition:opacity .15s;
+}
+.card-row-wrap:hover .row-arrow{opacity:1;}
+.row-arrow:hover{background:rgba(229,9,20,.22);border-color:rgba(229,9,20,.3);}
+.row-arrow.left{left:0;border-radius:0 4px 4px 0;}
+.row-arrow.right{right:0;border-radius:4px 0 0 4px;}
+.row-arrow.hidden{opacity:0!important;pointer-events:none;}
+
+/* ═══════════════════════════════
+   CARD — classic style.
+   Image on top, info below.
+   Hover = play icon fades in.
+   GPU-only transitions, no layout.
+═══════════════════════════════ */
+.card{
+  flex:0 0 240px;
+  border-radius:6px;overflow:hidden;
+  background:#111;border:1px solid #1c1c1c;
+  cursor:pointer;position:relative;
+  /* z-index drops AFTER transform finishes — no overlap flash */
+  transition:transform .3s var(--E),
+             box-shadow .3s var(--E),
+             z-index 0s .3s;
+  will-change:transform;
+  contain:layout style;
+  z-index:1;
+}
+.card:hover{
+  /* scale(1.08) — visible expand but NO physical collision with neighbours */
+  transform:scale(1.08) translateY(-5px) translateZ(0);
+  box-shadow:0 20px 50px rgba(0,0,0,.9);
+  /* z-index raises INSTANTLY on hover-in, so hovered card is always on top */
+  z-index:20;
+  transition:transform .3s var(--E),
+             box-shadow .3s var(--E),
+             z-index 0s 0s;
+}
+
+/* 16:9 rectangular thumbnail — no text below */
+.card-thumb-wrap{
+  position:relative;
+  aspect-ratio:16/9;
+  overflow:hidden;
+}
+.card-thumb{
+  width:100%;height:100%;object-fit:cover;display:block;
+  transition:transform .25s var(--E);
+  will-change:transform;
+}
+.card:hover .card-thumb{transform:scale(1.06) translateZ(0);}
+
+/* badges */
+.card-badge{
+  position:absolute;top:6px;left:6px;z-index:3;
+  font-size:.44rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+  padding:2px 6px;border-radius:3px;background:var(--red);color:#fff;
+}
+.card-badge.series{background:rgba(41,128,185,.88);}
+.card-quality{
+  position:absolute;top:6px;right:6px;z-index:3;
+  font-size:.44rem;font-weight:700;
+  padding:2px 6px;border-radius:3px;
+  background:rgba(0,0,0,.7);color:#fff;
+  border:1px solid rgba(255,255,255,.14);
+}
+
+/* hover info overlay — slides up from bottom inside image */
+.card-play-overlay{
+  position:absolute;inset:0;z-index:4;
+  /* gradient: transparent top → dark bottom */
+  background:linear-gradient(to top,
+    rgba(0,0,0,.98) 0%,
+    rgba(0,0,0,.7) 50%,
+    rgba(0,0,0,.05) 100%);
+  opacity:0;
+  transition:opacity .2s;
+}
+.card:hover .card-play-overlay{opacity:1;}
+
+/* info content sits at bottom of overlay */
+.card-play-icon{
+  position:absolute;bottom:10px;left:10px;right:10px;
+  display:flex;flex-direction:column;gap:4px;
+  transform:translateY(6px);
+  transition:transform .2s var(--E);
+  will-change:transform;
+}
+.card:hover .card-play-icon{transform:translateY(0);}
+
+/* play row inside overlay */
+.ci-play-row{display:flex;align-items:center;gap:7px;}
+.ci-btn{
+  width:32px;height:32px;border-radius:50%;flex-shrink:0;
+  background:#fff;color:#000;border:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  font-size:.8rem;padding-left:2px;
+  transition:background .14s,transform .14s;
+}
+.ci-btn:hover{background:#ddd;transform:scale(1.1);}
+.ci-title-ov{
+  font-size:.86rem;font-weight:800;color:#fff;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  flex:1;
+  text-shadow:0 1px 6px rgba(0,0,0,.9);
+}
+.ci-meta-ov{display:flex;gap:5px;flex-wrap:wrap;}
+.ci-meta-ov span{font-size:.68rem;font-weight:600;color:#fff;display:flex;align-items:center;gap:2px;}
+.ci-meta-ov i{font-size:.54rem;color:#ff6b6b;}
+.ci-tags-ov{display:flex;gap:3px;flex-wrap:wrap;}
+.ci-tag-ov{
+  font-size:.58rem;font-weight:600;color:#fff;
+  padding:2px 7px;border-radius:20px;
+  background:rgba(255,255,255,.18);
+}
+
+/* no separate info block below image */
+.card-info{display:none;}
+
+/* ── LOADING ──────────────────────────────────────── */
+.loading-screen{
+  position:fixed;inset:0;background:var(--bg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:20px;z-index:9999;transition:opacity .38s;
+}
+.loading-screen.hide{opacity:0;pointer-events:none;}
+.loading-logo{font-family:var(--disp);font-size:2.8rem;letter-spacing:3px;}
+.loading-logo span{color:var(--red);}
+.loader{
+  width:32px;height:32px;border-radius:50%;
+  border:2.5px solid rgba(255,255,255,.06);border-top-color:var(--red);
+  animation:spin .7s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ── SEARCH OVERLAY ───────────────────────────────── */
+.search-overlay{
+  position:fixed;inset:0;background:rgba(8,8,8,.97);z-index:2000;
+  display:flex;flex-direction:column;align-items:center;
+  padding:105px 5% 60px;
+  opacity:0;pointer-events:none;transition:opacity .17s;
+}
+.search-overlay.open{opacity:1;pointer-events:all;}
+.search-bar{
+  display:flex;align-items:center;gap:12px;
+  width:100%;max-width:640px;
+  border-bottom:2px solid var(--red);padding-bottom:10px;margin-bottom:32px;
+}
+.search-bar i{font-size:1.2rem;color:var(--red);}
+.search-bar input{
+  flex:1;background:none;border:none;outline:none;
+  font-family:var(--font);font-size:1.3rem;color:#fff;
+}
+.search-bar input::placeholder{color:#222;}
+.search-close{background:none;border:none;color:#444;font-size:1.2rem;cursor:pointer;transition:color .16s;}
+.search-close:hover{color:#fff;}
+.search-results{width:100%;max-width:640px;display:flex;flex-wrap:wrap;gap:8px;}
+.search-empty{color:var(--mut);font-size:.84rem;}
+
+/* ── FOOTER ───────────────────────────────────────── */
+footer{
+  border-top:1px solid var(--bdr);padding:24px 4%;
+  display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;
+}
+footer .logo{font-family:var(--disp);font-size:1.3rem;letter-spacing:2px;}
+footer .logo span{color:var(--red);}
+footer p{font-size:.7rem;color:var(--mut);}
+
+/* ── RESPONSIVE ───────────────────────────────────── */
+@media(max-width:960px){
+  .nav-links{display:none;}
+  .nav-search input{width:90px;}
+  .card{flex:0 0 200px;}
+}
+@media(max-width:600px){
+  /* Mobile: sidebar GPU-transform overlay, content stays at 0 */
+  .sidebar{
+    /* Fixed full width, slides in from left via transform */
+    width:var(--sb-open)!important;
+    transform:translateX(-100%) translateZ(0);
+    transition:transform var(--T) var(--E)!important;
+    will-change:transform;
+    contain:layout style paint!important; /* relax strict — allow shadow */
+  }
+  .sidebar.open{
+    transform:translateX(0) translateZ(0)!important;
+    box-shadow:12px 0 50px rgba(0,0,0,.95);
+  }
+  /* Always show text labels inside mobile sidebar */
+  .sidebar .sb-text{opacity:1!important;transform:none!important;}
+  .sidebar .sb-label{opacity:1!important;}
+  .sidebar .sb-badge{opacity:1!important;}
+  .sidebar .sb-logo{opacity:1!important;transform:none!important;}
+  /* Content: no shift on mobile — sidebar overlays */
+  #pageWrap{transform:none!important;transition:none!important;}
+  .navbar{transform:none!important;transition:background-color .2s!important;}
+  .sb-overlay{display:block;}
+  .mob-menu-btn{display:flex;}
+  .hero-bg{width:100%;opacity:.4;}
+  .hero-content{max-width:100%;padding:0 5%;}
+  .hero-title{font-size:2.4rem;}
+  .hero{align-items:flex-end;padding-bottom:50px;}
+  .card{flex:0 0 160px;}
+  footer{flex-direction:column;text-align:center;}
+}
+@media(min-width:601px){
+  .mob-menu-btn{display:none!important;}
+  .sb-overlay{display:none!important;}
+}
+</style>
+</head>
+<body>
+
+<!-- Mobile veil -->
+<div class="sb-overlay" id="sbOverlay"></div>
+
+<!-- SIDEBAR -->
+<aside class="sidebar" id="sidebar">
+  <button class="sb-toggle" id="sbToggle">
+    <i class="fa-solid fa-bars"></i>
+    <span class="sb-logo" style="font-size:1rem;letter-spacing:.5px;">ISLAMIC <span>M/S</span></span>
+  </button>
+
+  <div class="sb-label">Menu</div>
+  <button class="sb-item active" data-nav="all">
+    <span class="sb-icon"><i class="fa-solid fa-house"></i></span>
+    <span class="sb-text">Home</span>
+  </button>
+  <button class="sb-item" data-nav="movies">
+    <span class="sb-icon"><i class="fa-solid fa-film"></i></span>
+    <span class="sb-text">Movies</span>
+  </button>
+  <button class="sb-item" data-nav="series">
+    <span class="sb-icon"><i class="fa-solid fa-tv"></i></span>
+    <span class="sb-text">Series</span>
+  </button>
+  <button class="sb-item" data-nav="nim">
+    <span class="sb-icon">
+      <svg width="18" height="18" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+        <!-- Film reel outer ring -->
+        <circle cx="18" cy="18" r="16" stroke="currentColor" stroke-width="2.2" fill="none"/>
+        <!-- Film reel inner hub -->
+        <circle cx="18" cy="18" r="5.5" fill="currentColor" opacity=".85"/>
+        <!-- 6 sprocket holes evenly spaced -->
+        <circle cx="18" cy="5"  r="2.2" fill="currentColor"/>
+        <circle cx="18" cy="31" r="2.2" fill="currentColor"/>
+        <circle cx="5"  cy="18" r="2.2" fill="currentColor"/>
+        <circle cx="31" cy="18" r="2.2" fill="currentColor"/>
+        <circle cx="9.1"  cy="9.1"  r="2.2" fill="currentColor"/>
+        <circle cx="26.9" cy="26.9" r="2.2" fill="currentColor"/>
+        <!-- Diagonal slash across the reel (non-Islamic marker) -->
+        <line x1="4" y1="4" x2="32" y2="32" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity=".6"/>
+      </svg>
+    </span>
+    <span class="sb-text">N.I.M</span>
+    <span class="sb-badge" id="nimBadge" style="display:none"></span>
+  </button>
+
+  <div class="sb-divider"></div>
+
+  <div class="sb-cats" id="sbCats">
+    <div class="sb-label" style="padding-top:10px">Categories</div>
+    <div id="sbCatItems"></div>
+  </div>
+</aside>
+
+<!-- PAGE WRAP -->
+<div id="pageWrap">
+
+  <!-- Loading -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-logo">ISLAMIC <span>M/S</span></div>
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <button class="mob-menu-btn" id="mobMenuBtn"><i class="fa-solid fa-bars"></i></button>
+    <a href="index.html" class="nav-logo" style="letter-spacing:.5px;font-size:1.1rem;">ISLAMIC <span>M/S</span></a>
+    <div class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#" data-nav="movies">Movies</a>
+      <a href="#" data-nav="series">Series</a>
+      <a href="#" data-nav="nim">N.I.M</a>
+    </div>
+    <div class="nav-right">
+      <div class="nav-search" id="searchTrigger">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input id="searchInput" placeholder="Search..." readonly/>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"   id="heroBg"></div>
+    <div class="hero-grad"></div>
+    <div class="hero-content"    id="heroContent"></div>
+    <div class="hero-indicators" id="heroIndicators"></div>
+  </section>
+
+  <!-- Sections -->
+  <div class="sections" id="mainSections">
+    <div class="no-results" id="noResults">
+      <i class="fa-solid fa-film"></i>
+      <p>No titles in this category.</p>
+    </div>
+    <div class="error-screen" id="errorScreen">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <h2>Failed to load content</h2>
+      <code id="errorUrl"></code>
+      <p id="errorMsg"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo" style="letter-spacing:.5px;">ISLAMIC <span>M/S</span></div>
+    <p>© 2025 Islamic Movies & Series. All rights reserved.</p>
+  </footer>
+
+</div><!-- /pageWrap -->
+
+<!-- Search overlay -->
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-bar">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input id="searchField" placeholder="Search movies, series, genres…" autocomplete="off"/>
+    <button class="search-close" id="searchClose"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="search-results" id="searchResults">
+    <p class="search-empty">Start typing to search...</p>
+  </div>
+</div>
+
+<script>
+/* ════════════════════════════════════════
+   CONFIG
+════════════════════════════════════════ */
+const CATALOG_URL = 'https://raw.githubusercontent.com/aaahhha7777/App-Website-.Json/refs/heads/main/content.json';
+const PLAYER_PAGE = 'movies-series-player.html';
+
+/* ════════════════════════════════════════
+   STATE
+════════════════════════════════════════ */
+let CATALOG=[], heroItems=[], heroIdx=0, heroTimer=null, sidebarOpen=false, activeCategory='All';
+
+const $=id=>document.getElementById(id);
+const DOM={};
+
+/* ════════════════════════════════════════
+   GENRE ICONS
+════════════════════════════════════════ */
+const GENRE_ICONS={
+  Action:'fa-khanda',Animation:'fa-dragon',Comedy:'fa-face-laugh',
+  Drama:'fa-masks-theater',Family:'fa-people-roof',Fantasy:'fa-hat-wizard',
+  'Dark Fantasy':'fa-skull','Sci-Fi':'fa-rocket',Mystery:'fa-magnifying-glass',
+  Thriller:'fa-eye',Horror:'fa-ghost',Romance:'fa-heart',
+  Adventure:'fa-compass',Short:'fa-hourglass-half',Documentary:'fa-camera'
+};
+const genreIcon=g=>GENRE_ICONS[g]||'fa-tag';
+
+/* ════════════════════════════════════════
+   INIT
+════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded',()=>{
+  ['sidebar','sbOverlay','sbToggle','sbCatItems','sbCats',
+   'mainSections','noResults','errorScreen','errorUrl','errorMsg',
+   'navbar','heroBg','heroContent','heroIndicators',
+   'searchOverlay','searchField','searchClose','searchResults',
+   'searchTrigger','searchInput','loadingScreen','pageWrap','mobMenuBtn'
+  ].forEach(id=>DOM[id]=$(id));
+
+  initSidebar();
+  initNavbar();
+  initSearch();
+  loadCatalog();
+});
+
+/* ════════════════════════════════════════
+   SIDEBAR
+════════════════════════════════════════ */
+function initSidebar(){
+  /* single toggle handler */
+  DOM.sbToggle.addEventListener('click',toggleSidebar,{passive:true});
+  DOM.mobMenuBtn&&DOM.mobMenuBtn.addEventListener('click',toggleSidebar,{passive:true});
+  DOM.sbOverlay.addEventListener('click',closeSidebar,{passive:true});
+
+  /* delegate nav clicks to single listener */
+  document.querySelector('.sidebar').addEventListener('click',e=>{
+    const btn=e.target.closest('.sb-item[data-nav]');
+    if(!btn)return;
+    const nav=btn.dataset.nav;
+    setActiveNav(btn);
+    if(nav==='all'){selectCategory('All');}
+    else if(nav==='nim'){selectCategory('nim');}
+    else{
+      selectCategory('All');
+      /* rAF+setTimeout: let sidebar close anim start before scroll */
+      requestAnimationFrame(()=>setTimeout(()=>{
+        const s=$(nav);s&&s.scrollIntoView({behavior:'smooth',block:'start'});
+      },40));
+    }
+    if(window.innerWidth<=600)closeSidebar();
+  });
+
+  document.querySelectorAll('.nav-links a[data-nav]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      e.preventDefault();
+      if(a.dataset.nav==='nim'){selectCategory('nim');return;}
+      selectCategory('All');
+      const s=$(a.dataset.nav);s&&s.scrollIntoView({behavior:'smooth'});
+    },{passive:false});
+  });
+
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape'){closeSidebar();closeSearch();}
+  });
+}
+function toggleSidebar(){sidebarOpen?closeSidebar():openSidebar();}
+function openSidebar(){
+  sidebarOpen=true;
+  DOM.sidebar.classList.add('open');
+  document.body.classList.add('sb-open');
+  if(window.innerWidth<=600)DOM.sbOverlay.classList.add('show');
+}
+function closeSidebar(){
+  sidebarOpen=false;
+  DOM.sidebar.classList.remove('open');
+  document.body.classList.remove('sb-open');
+  DOM.sbOverlay.classList.remove('show');
+}
+function setActiveNav(el){
+  /* querySelectorAll is the only unavoidable loop here */
+  document.querySelectorAll('.sb-item.active').forEach(i=>i.classList.remove('active'));
+  el&&el.classList.add('active');
+}
+
+/* ════════════════════════════════════════
+   CATALOG
+════════════════════════════════════════ */
+async function loadCatalog(){
+  try{
+    const res=await fetch(CATALOG_URL);
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    CATALOG=Array.isArray(data)?data:[data];
+    hideLoading();renderAll();
+  }catch(err){
+    hideLoading();
+    DOM.errorScreen.classList.add('show');
+    DOM.errorUrl.textContent=CATALOG_URL;
+    DOM.errorMsg.textContent=err.message;
+  }
+}
+function hideLoading(){
+  DOM.loadingScreen.classList.add('hide');
+  setTimeout(()=>DOM.loadingScreen.remove(),420);
+}
+
+/* ════════════════════════════════════════
+   RENDER ALL
+════════════════════════════════════════ */
+function renderAll(){
+  const movies=CATALOG.filter(x=>x.isMovie),series=CATALOG.filter(x=>!x.isMovie);
+  heroItems=CATALOG.filter(x=>x.backdrop).slice(0,5);
+  if(!heroItems.length)heroItems=CATALOG.slice(0,3);
+  renderHero();startHeroAuto();
+
+  const gMap={};
+  CATALOG.forEach(item=>(item.genres||[]).forEach(g=>{if(!gMap[g])gMap[g]=[];gMap[g].push(item);}));
+
+  const frag=document.createDocumentFragment();
+  const nim=CATALOG.filter(x=>x.nim||(x.genres||[]).some(g=>g.toLowerCase()==='n.i.m'||g.toLowerCase()==='nim'));
+  if(movies.length)frag.appendChild(buildSection('🎬 Movies','movies',movies));
+  if(series.length)frag.appendChild(buildSection('📺 Series','series',series));
+  if(nim.length){const ns=buildSection('🎞️ N.I.M — Non-Islamic Movies','nim',nim);frag.appendChild(ns);}
+  const nimB=document.getElementById('nimBadge');if(nimB&&nim.length){nimB.textContent=nim.length;nimB.style.display='';}
+  Object.entries(gMap).sort((a,b)=>b[1].length-a[1].length).forEach(([genre,items])=>{
+    const sec=buildSection('🏷 '+genre,'genre-'+genre.toLowerCase().replace(/\s+/g,'-'),items);
+    sec.dataset.genre=genre;sec.classList.add('genre-section','cat-hidden');
+    frag.appendChild(sec);
+  });
+  DOM.mainSections.appendChild(frag);
+
+  /* Single delegated listener for ALL cards */
+  DOM.mainSections.addEventListener('click',e=>{
+    const card=e.target.closest('.card[data-id]');
+    if(card)openPlayer(card.dataset.id);
+  });
+
+  buildCatBar(gMap);
+}
+
+/* ════════════════════════════════════════
+   SIDEBAR CATEGORIES
+════════════════════════════════════════ */
+function buildCatBar(gMap){
+  DOM.sbCatItems.innerHTML=Object.entries(gMap).sort((a,b)=>b[1].length-a[1].length).map(([g,it])=>
+    `<button class="sb-item" data-cat="${g}">
+      <span class="sb-icon"><i class="fa-solid ${genreIcon(g)}"></i></span>
+      <span class="sb-text">${g}</span>
+      <span class="sb-badge">${it.length}</span>
+    </button>`
+  ).join('');
+
+  DOM.sbCatItems.addEventListener('click',e=>{
+    const btn=e.target.closest('.sb-item[data-cat]');
+    if(!btn)return;
+    selectCategory(btn.dataset.cat,btn);
+    if(window.innerWidth<=600)closeSidebar();
+  });
+}
+
+function selectCategory(cat,el){
+  activeCategory=cat;
+  setActiveNav(el||null);
+  if(cat==='All'){
+    const hb=document.querySelector('.sb-item[data-nav="all"]');
+    if(hb&&!el)hb.classList.add('active');
+  }
+  applyCategory(cat);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function applyCategory(cat){
+  const mv=$('movies'),se=$('series'),nm=$('nim'),gs=document.querySelectorAll('.genre-section');
+  if(cat==='All'){
+    mv&&mv.classList.remove('cat-hidden');
+    se&&se.classList.remove('cat-hidden');
+    nm&&nm.classList.remove('cat-hidden');
+    gs.forEach(s=>s.classList.add('cat-hidden'));
+    DOM.noResults.classList.remove('show');
+  }else if(cat==='nim'){
+    mv&&mv.classList.add('cat-hidden');
+    se&&se.classList.add('cat-hidden');
+    gs.forEach(s=>s.classList.add('cat-hidden'));
+    if(nm){nm.classList.remove('cat-hidden');DOM.noResults.classList.remove('show');}else{DOM.noResults.classList.add('show');}
+  }else{
+    mv&&mv.classList.add('cat-hidden');
+    se&&se.classList.add('cat-hidden');
+    let found=false;
+    gs.forEach(s=>{
+      if(s.dataset.genre===cat){s.classList.remove('cat-hidden');found=true;}
+      else s.classList.add('cat-hidden');
+    });
+    DOM.noResults.classList.toggle('show',!found);
+  }
+}
+
+/* ════════════════════════════════════════
+   HERO
+════════════════════════════════════════ */
+function renderHero(){
+  const item=heroItems[heroIdx];if(!item)return;
+  DOM.heroBg.style.backgroundImage=`url('${item.backdrop||item.poster}')`;
+  const ep=!item.isMovie&&item.episodes?`<span><i class="fa-solid fa-list"></i> ${item.episodes.length} Episodes</span>`:'';
+  DOM.heroContent.innerHTML=`
+    <div class="hero-badge"><i class="fa-solid fa-fire"></i> ${item.isMovie?'Movie':'Series'}</div>
+    <div class="hero-title">${item.title}</div>
+    <div class="hero-meta">
+      <span><i class="fa-solid fa-film"></i> ${item.quality||'HD'}</span>
+      ${item.runtime?`<span><i class="fa-regular fa-clock"></i> ${item.runtime}</span>`:''}
+      ${item.language?`<span><i class="fa-solid fa-language"></i> ${item.language}</span>`:''}
+      ${ep}
+    </div>
+    <p class="hero-desc">${item.description||''}</p>
+    <div class="hero-btns">
+      <a class="hero-btn hero-btn-play" href="${PLAYER_PAGE}?id=${item.id}"><i class="fa-solid fa-play"></i> Play Now</a>
+      <button class="hero-btn hero-btn-info" onclick="openPlayer('${item.id}')"><i class="fa-solid fa-circle-info"></i> More Info</button>
+    </div>`;
+  DOM.heroIndicators.innerHTML=heroItems.map((_,i)=>
+    `<button class="hero-dot${i===heroIdx?' active':''}" data-hero="${i}"></button>`
+  ).join('');
+}
+/* delegated dots */
+$('heroIndicators')&&$('heroIndicators').addEventListener('click',e=>{
+  const b=e.target.closest('.hero-dot[data-hero]');
+  if(!b)return;
+  heroIdx=+b.dataset.hero;clearInterval(heroTimer);renderHero();startHeroAuto();
+});
+function startHeroAuto(){
+  clearInterval(heroTimer);
+  heroTimer=setInterval(()=>{heroIdx=(heroIdx+1)%heroItems.length;renderHero();},6000);
+}
+
+/* ════════════════════════════════════════
+   SECTION BUILDER
+════════════════════════════════════════ */
+function buildSection(title,id,items){
+  const sec=document.createElement('section');
+  sec.className='section';sec.id=id;
+  sec.innerHTML=`
+    <div class="section-header">
+      <div class="section-title">${title}<span class="section-count">${items.length}</span></div>
+    </div>
+    <div class="card-row-wrap">
+      <button class="row-arrow left hidden" data-row="${id}-row"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="card-row" id="${id}-row">${items.map(buildCard).join('')}</div>
+      <button class="row-arrow right" data-row="${id}-row"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>`;
+  sec.addEventListener('click',e=>{
+    const arrow=e.target.closest('.row-arrow[data-row]');
+    if(!arrow)return;
+    const row=$(arrow.dataset.row);
+    if(row)row.scrollBy({left:arrow.classList.contains('left')?-540:540,behavior:'smooth'});
+  });
+  const row=sec.querySelector('.card-row');
+  if(row){
+    let tick=false;
+    row.addEventListener('scroll',()=>{
+      if(!tick){requestAnimationFrame(()=>{updateArrows(sec,row);tick=false;});tick=true;}
+    },{passive:true});
+    requestAnimationFrame(()=>updateArrows(sec,row));
+  }
+  return sec;
+}
+function updateArrows(sec,row){
+  const L=sec.querySelector('.row-arrow.left'),R=sec.querySelector('.row-arrow.right');
+  if(L)L.classList.toggle('hidden',row.scrollLeft<=8);
+  if(R)R.classList.toggle('hidden',row.scrollLeft+row.clientWidth>=row.scrollWidth-8);
+}
+
+/* ════════════════════════════════════════
+   CARD HTML — small, clean, play on hover
+════════════════════════════════════════ */
+function buildCard(item){
+  const ep=!item.isMovie&&item.episodes
+    ?`<span><i class="fa-solid fa-list"></i> ${item.episodes.length} eps</span>`
+    :`<span><i class="fa-regular fa-clock"></i> ${item.runtime||''}</span>`;
+  const lang=item.language?`<span><i class="fa-solid fa-language"></i> ${item.language}</span>`:'';
+  const tags=(item.genres||[]).slice(0,2).map(g=>`<span class="ci-tag-ov">${g}</span>`).join('');
+  return `<div class="card" data-id="${item.id}">
+    <div class="card-thumb-wrap">
+      <img class="card-thumb" src="${item.poster||''}" alt="${item.title}" loading="lazy"/>
+      <div class="card-badge ${item.isMovie?'movie':'series'}">${item.isMovie?'MOVIE':'SERIES'}</div>
+      <div class="card-quality">${item.quality||'HD'}</div>
+      <div class="card-play-overlay">
+        <div class="card-play-icon">
+          <div class="ci-play-row">
+            <button class="ci-btn"><i class="fa-solid fa-play"></i></button>
+            <span class="ci-title-ov">${item.title}</span>
+          </div>
+          <div class="ci-meta-ov">${ep}${lang}</div>
+          <div class="ci-tags-ov">${tags}</div>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+function openPlayer(id){window.location.href=PLAYER_PAGE+'?id='+encodeURIComponent(id);}
+
+/* ════════════════════════════════════════
+   NAVBAR SCROLL — passive + RAF throttle
+════════════════════════════════════════ */
+function initNavbar(){
+  let tick=false;
+  window.addEventListener('scroll',()=>{
+    if(!tick){requestAnimationFrame(()=>{DOM.navbar.classList.toggle('scrolled',scrollY>50);tick=false;});tick=true;}
+  },{passive:true});
+}
+
+/* ════════════════════════════════════════
+   SEARCH — debounced
+════════════════════════════════════════ */
+function initSearch(){
+  DOM.searchTrigger.addEventListener('click',openSearch);
+  DOM.searchInput.addEventListener('focus',openSearch);
+  DOM.searchClose.addEventListener('click',closeSearch);
+  DOM.searchOverlay.addEventListener('click',e=>{if(e.target===DOM.searchOverlay)closeSearch();});
+
+  let deb;
+  DOM.searchField.addEventListener('input',()=>{
+    clearTimeout(deb);
+    deb=setTimeout(()=>{
+      const q=DOM.searchField.value.trim().toLowerCase();
+      if(!q){DOM.searchResults.innerHTML='<p class="search-empty">Start typing to search...</p>';return;}
+      const found=CATALOG.filter(x=>x.title.toLowerCase().includes(q)||(x.genres||[]).some(g=>g.toLowerCase().includes(q)));
+      DOM.searchResults.innerHTML=found.length?found.map(buildCard).join(''):'<p class="search-empty">No results found.</p>';
+    },160);
+  });
+  DOM.searchResults.addEventListener('click',e=>{
+    const c=e.target.closest('.card[data-id]');if(c)openPlayer(c.dataset.id);
+  });
+}
+function openSearch(){DOM.searchOverlay.classList.add('open');DOM.searchField.focus();}
+function closeSearch(){
+  DOM.searchOverlay.classList.remove('open');
+  DOM.searchField.value='';
+  DOM.searchResults.innerHTML='<p class="search-empty">Start typing to search...</p>';
+}
+</script>
+</body>
+</html>
