@@ -675,8 +675,7 @@
           "label": "Skip Intro"
         }
       }
-    ],
-    "nim": true
+    ]
   },
   {
     "id": "prophet-yousuf",
@@ -2119,8 +2118,7 @@
         },
         "embedId": ""
       }
-    ],
-    "nim": true
+    ]
   },
   {
     "id": "doraemon-01",
@@ -3184,7 +3182,7 @@
         "desc": "",
         "thumb": "",
         "duration": 7200,
-        "url": "https://free.seeks.cloud/#uewmn",
+        "url": "",
         "embedId": "",
         "downloadUrl": "",
         "qualitySources": [
@@ -3207,7 +3205,7 @@
         "desc": "",
         "thumb": "",
         "duration": 7200,
-        "url": "https://free.seeks.cloud/#oyzf9",
+        "url": "",
         "embedId": "",
         "downloadUrl": "",
         "qualitySources": [
@@ -13986,8 +13984,7 @@
           "label": "Skip Intro"
         }
       }
-    ],
-    "nim": true
+    ]
   },
   {
     "id": "kurulus-osman",
@@ -13997,7 +13994,6 @@
     "backdrop": "https://upload.wikimedia.org/wikipedia/tr/thumb/9/95/Kurulu%C5%9F_Osman_poster.jpg/250px-Kurulu%C5%9F_Osman_poster.jpg",
     "description": "The story of Osman Ghazi, son of Ertugrul and founder of the Ottoman Empire. Following in his father's footsteps, Osman fights to establish a new state built on justice and faith, battling enemies from all sides to fulfil his destiny.",
     "isMovie": false,
-    "nim": true,
     "quality": "HD",
     "runtime": "2h / ep",
     "language": "Urdu",
@@ -39700,3 +39696,4 @@
     ]
   }
 ]
+        
